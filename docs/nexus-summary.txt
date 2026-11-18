@@ -1,0 +1,1 @@
+Adds more crafting and disassembly recipes to Innards workshop that give spare loot a use and cut down on farming.

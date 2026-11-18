@@ -1,0 +1,960 @@
+tag	row	display_name	source_table	stock_ingredient	stock_output
+Inventory.Dangly.BP_ActivityItem_Jerrycan	BP_ActivityItem_Jerrycan	Jerrycan	DanglyDetailsData		
+Inventory.Dangly.BP_ActivityItem_WaterThiefMask	BP_ActivityItem_WaterThiefMask	Water Thief Mask	DanglyDetailsData		
+Inventory.Dangly.BP_BaseDangleSingleConstraint_C	BP_BaseDangleSingleConstraint_C	BP_BaseDangleSingleConstraint_C	DanglyDetailsData		
+Inventory.Dangly.BP_CritialLoot_QuestItem1_C	BP_CritialLoot_QuestItem1_C	BP_CritialLoot_QuestItem1_C	DanglyDetailsData		
+Inventory.Dangly.BP_CritialLoot_QuestItem_C	BP_CritialLoot_QuestItem_C	BP_CritialLoot_QuestItem_C	DanglyDetailsData		
+Inventory.Dangly.BP_DangleContainerBag_C	BP_DangleContainerBag_C	BP_DangleContainerBag_C	DanglyDetailsData		
+Inventory.Dangly.BP_DangleContainerBag_QuestObj_C	BP_DangleContainerBag_QuestObj_C	BP_DangleContainerBag_QuestObj_C	DanglyDetailsData		
+Inventory.Dangly.BP_DangleContainerSleepingRoll_C	BP_DangleContainerSleepingRoll_C	Sleeping Roll	DanglyDetailsData		
+Inventory.Dangly.BP_DangleContainer_C	BP_DangleContainer_C	BP_DangleContainer_C	DanglyDetailsData		
+Inventory.Dangly.BP_DangleContainer_Radio_C	BP_DangleContainer_Radio_C	BP_DangleContainer_Radio_C	DanglyDetailsData		
+Inventory.Dangly.BP_Eurasian_LockBox_Large_Quest	BP_Eurasian_LockBox_Large_Quest	Eurasian Supply Crate	DanglyDetailsData		
+Inventory.Dangly.BP_Helmet_C	BP_Helmet_C	Helmet	DanglyDetailsData		
+Inventory.Dangly.BP_JetPackEquipment_Training_C	BP_JetPackEquipment_Training_C	Jetpack Equipment	DanglyDetailsData		
+Inventory.Dangly.BP_LockBox_Large_C	BP_LockBox_Large_C	Large Lockbox	DanglyDetailsData		
+Inventory.Dangly.BP_Loot_Explosives_C	BP_Loot_Explosives_C	Explosives	DanglyDetailsData	yes	
+Inventory.Dangly.BP_PaperBag_C	BP_PaperBag_C	Paper Bag	DanglyDetailsData		
+Inventory.Dangly.BP_QuestItem_CyborgTorso	BP_QuestItem_CyborgTorso	Cyborg Torso	DanglyDetailsData		
+Inventory.Dangly.BP_QuestItem_Jammer	BP_QuestItem_Jammer	Jammer	DanglyDetailsData		
+Inventory.Dangly.BP_QuestItem_MechPart	BP_QuestItem_MechPart	Mech Part	DanglyDetailsData		
+Inventory.Dangly.BP_QuestItem_SparePart	BP_QuestItem_SparePart	Spare Part	DanglyDetailsData		
+Inventory.Dangly.BP_QuestItem_WetwareSystem	BP_QuestItem_WetwareSystem	Wetware System	DanglyDetailsData		
+Inventory.Dangly.BP_TestDangleContainer_C	BP_TestDangleContainer_C	BP_TestDangleContainer_C	DanglyDetailsData		
+Inventory.Dangly.BP_TestDangleItem_C	BP_TestDangleItem_C	BP_TestDangleItem_C	DanglyDetailsData		
+Inventory.Dangly.BP_TestDangleItem_OctogonalCanister_C	BP_TestDangleItem_OctogonalCanister_C	BP_TestDangleItem_OctogonalCanister_C	DanglyDetailsData		
+Inventory.Dangly.CRW01TurretAmmo	CRW01TurretAmmo	Fixed Machinegun Ammo Housing	DanglyDetailsData		yes
+Inventory.Dangly.CRW01TurretBarrel	CRW01TurretBarrel	CRW 01 Turret Barrel	DanglyDetailsData		yes
+Inventory.Dangly.CRW02TurretAmmo	CRW02TurretAmmo	CRW 02 Turret Ammo Container	DanglyDetailsData		yes
+Inventory.Dangly.CRW02TurretBarrel	CRW02TurretBarrel	CRW 02 Turret Barrel	DanglyDetailsData		yes
+Inventory.Dangly.CRW03TurretAmmo	CRW03TurretAmmo	Rail Gun Turret Ammo Supply	DanglyDetailsData		yes
+Inventory.Dangly.CRW03TurretBarrel	CRW03TurretBarrel	Rail Gun Turret Weapon	DanglyDetailsData		yes
+Inventory.Dangly.CRWUniversalTurretBase	CRWUniversalTurretBase	Turret Base	DanglyDetailsData		yes
+Inventory.Dangly.DogFetch_010_LowestValue	DogFetch_010_LowestValue	Scavenger's Box "Z"	DanglyDetailsData		
+Inventory.Dangly.DogFetch_020_2ndLowestValue	DogFetch_020_2ndLowestValue	Scavenger's Box "A"	DanglyDetailsData		
+Inventory.Dangly.DogFetch_030_AverageValue	DogFetch_030_AverageValue	Scavenger's Box "B"	DanglyDetailsData		
+Inventory.Dangly.DogFetch_040_2ndHighestValue	DogFetch_040_2ndHighestValue	Scavenger's Box "C"	DanglyDetailsData		
+Inventory.Dangly.DogFetch_050_HighestValue	DogFetch_050_HighestValue	Scavenger's Box "D"	DanglyDetailsData		
+Inventory.Dangly.GRL01_Broken				yes	
+Inventory.Dangly.GRL02_Broken				yes	
+Inventory.Dangly.Gacha_GRL02	Gacha_GRL02	Sealed Mystery Box	DanglyDetailsData		
+Inventory.Dangly.Gacha_HMG01	Gacha_HMG01	Sealed Mystery Box	DanglyDetailsData		
+Inventory.Dangly.Gacha_HRF03	Gacha_HRF03	Sealed Mystery Box	DanglyDetailsData		
+Inventory.Dangly.Gacha_HRF04	Gacha_HRF04	Sealed Mystery Box	DanglyDetailsData		
+Inventory.Dangly.Gacha_HighValueRandom_West	Gacha_HighValueRandom_West	Sealed Mystery Box	DanglyDetailsData		
+Inventory.Dangly.Gacha_LMG04	Gacha_LMG04	Sealed Mystery Box	DanglyDetailsData		
+Inventory.Dangly.Gacha_PST01	Gacha_PST01	Sealed Mystery Box	DanglyDetailsData		
+Inventory.Dangly.Gacha_PST07	Gacha_PST07	Sealed Mystery Box	DanglyDetailsData		
+Inventory.Dangly.Gacha_Quest_Connecting_The_Dots	Gacha_Quest_Connecting_The_Dots	Sealed Mystery Box	DanglyDetailsData		
+Inventory.Dangly.Gacha_RailGunComponents	Gacha_RailGunComponents	Sealed Mystery Box	DanglyDetailsData		
+Inventory.Dangly.Gacha_SHG03	Gacha_SHG03	Sealed Mystery Box	DanglyDetailsData		
+Inventory.Dangly.Gacha_SHG04	Gacha_SHG04	Sealed Mystery Box	DanglyDetailsData		
+Inventory.Dangly.Gacha_SMG03	Gacha_SMG03	Sealed Mystery Box	DanglyDetailsData		
+Inventory.Dangly.Gacha_SMG05	Gacha_SMG05	Sealed Mystery Box	DanglyDetailsData		
+Inventory.Dangly.HMG01_Broken				yes	
+Inventory.Dangly.HRF01_Broken				yes	
+Inventory.Dangly.HRF02_REAL_Broken				yes	
+Inventory.Dangly.HRF03_Broken				yes	
+Inventory.Dangly.HRF04_Broken				yes	
+Inventory.Dangly.LMG01_Broken				yes	
+Inventory.Dangly.LMG02_Broken				yes	
+Inventory.Dangly.LMG03_Broken				yes	
+Inventory.Dangly.LMG04_Broken				yes	
+Inventory.Dangly.MoCo_Head	MoCo_Head	MoCo's Head	DanglyDetailsData		
+Inventory.Dangly.PST01_Broken				yes	
+Inventory.Dangly.PST02_Broken				yes	
+Inventory.Dangly.PST03_Broken				yes	
+Inventory.Dangly.PST04_Broken				yes	
+Inventory.Dangly.PST05_Broken				yes	
+Inventory.Dangly.PST06_Broken				yes	
+Inventory.Dangly.PST07_Broken				yes	
+Inventory.Dangly.PST10_Broken				yes	
+Inventory.Dangly.QUEST_Totem	QUEST_Totem	Mystical Tech Totem	DanglyDetailsData		
+Inventory.Dangly.RFL01B_Broken				yes	
+Inventory.Dangly.RFL01_Broken				yes	
+Inventory.Dangly.RFL12_Broken				yes	
+Inventory.Dangly.RFL15_Broken				yes	
+Inventory.Dangly.RFL16_Broken				yes	
+Inventory.Dangly.RFL19_Broken				yes	
+Inventory.Dangly.RFL20_Broken				yes	
+Inventory.Dangly.RFL23_Broken				yes	
+Inventory.Dangly.RFL29_Broken				yes	
+Inventory.Dangly.RFL30_Broken				yes	
+Inventory.Dangly.RIG_EQUIPMENT_20mmTurret	RIG_EQUIPMENT_20mmTurret	20mm Turret	DanglyDetailsData		yes
+Inventory.Dangly.RIG_EQUIPMENT_DeployHealDrone	RIG_EQUIPMENT_DeployHealDrone	Deployable Healing Drone	DanglyDetailsData		
+Inventory.Dangly.RIG_EQUIPMENT_DeployShield	RIG_EQUIPMENT_DeployShield	Deployable Shield	DanglyDetailsData		
+Inventory.Dangly.RIG_EQUIPMENT_ExoLegs	RIG_EQUIPMENT_ExoLegs	Exo Stamina Equipment	DanglyDetailsData		yes
+Inventory.Dangly.RIG_EQUIPMENT_IED	RIG_EQUIPMENT_IED	IED	DanglyDetailsData		yes
+Inventory.Dangly.RIG_EQUIPMENT_RigLight	RIG_EQUIPMENT_RigLight	Rig Light	DanglyDetailsData		yes
+Inventory.Dangly.RIG_EQUIPMENT_SuperJump	RIG_EQUIPMENT_SuperJump	Pneumatic Jump	DanglyDetailsData		yes
+Inventory.Dangly.RIG_EQUIPMENT_TacCam	RIG_EQUIPMENT_TacCam	Tactical Camera	DanglyDetailsData		yes
+Inventory.Dangly.RigPilot	RigPilot	Pilot	DanglyDetailsData		
+Inventory.Dangly.SHG01_Broken				yes	
+Inventory.Dangly.SHG03_Broken				yes	
+Inventory.Dangly.SHG04_Broken				yes	
+Inventory.Dangly.SHG05_Broken				yes	
+Inventory.Dangly.SMG01_Broken				yes	
+Inventory.Dangly.SMG02_Broken				yes	
+Inventory.Dangly.SMG03_Broken				yes	
+Inventory.Dangly.SMG04_Broken				yes	
+Inventory.Dangly.SMG05_Broken				yes	
+Inventory.Dangly.SMG06_Broken				yes	
+Inventory.Dangly.SMG07_Broken				yes	
+Inventory.Dangly.SMG08_Broken				yes	
+Inventory.Dangly.Turret_Ammo	Turret_Ammo	Turret Ammo Container	DanglyDetailsData		
+Inventory.Dangly.Turret_Barrel	Turret_Barrel	Turret Barrel	DanglyDetailsData		
+Inventory.Dangly.Turret_Base	Turret_Base	Turret Base	DanglyDetailsData		
+Inventory.Dangly.WATER_oneDaySupply	WATER_oneDaySupply	Water	DanglyDetailsData		
+Inventory.Item.AMMO_Pistol	AMMO_Pistol	Pistol Ammo	ItemDetailsData		
+Inventory.Item.AMMO_RifleAI	AMMO_RifleAI	Heavy Rifle Ammo	ItemDetailsData		
+Inventory.Item.ATTBPD1	ATTBPD1	Bipod A	ItemDetailsData		
+Inventory.Item.ATTBPD2	ATTBPD2	Bipod B	ItemDetailsData		
+Inventory.Item.ATTBPD3	ATTBPD3	Bipod C	ItemDetailsData		
+Inventory.Item.ATTBPD4	ATTBPD4	Bipod D	ItemDetailsData		
+Inventory.Item.ATTMD1_1	ATTMD1_1	Suppressed Muzzle Device A	ItemDetailsData		
+Inventory.Item.ATTMD1_2	ATTMD1_2	Muzzle Device A	ItemDetailsData		
+Inventory.Item.ATTMD2_1	ATTMD2_1	Muzzle Device B	ItemDetailsData		
+Inventory.Item.ATTMD3_1	ATTMD3_1	Muzzle Device C	ItemDetailsData		
+Inventory.Item.ATTMD3_10	ATTMD3_10	Muzzle Device D	ItemDetailsData		
+Inventory.Item.ATTMD3_11	ATTMD3_11	Muzzle Device E	ItemDetailsData		
+Inventory.Item.ATTMD3_12	ATTMD3_12	Muzzle Device F	ItemDetailsData		
+Inventory.Item.ATTMD3_2	ATTMD3_2	Suppressed Muzzle Device B	ItemDetailsData		
+Inventory.Item.ATTMD3_3	ATTMD3_3	Muzzle Device G	ItemDetailsData		
+Inventory.Item.ATTMD3_4	ATTMD3_4	Muzzle Device H	ItemDetailsData		
+Inventory.Item.ATTMD3_5	ATTMD3_5	Muzzle Device I	ItemDetailsData		
+Inventory.Item.ATTMD3_6	ATTMD3_6	Muzzle Device J	ItemDetailsData		
+Inventory.Item.ATTMD3_7	ATTMD3_7	Muzzle Device K	ItemDetailsData		
+Inventory.Item.ATTMD3_8	ATTMD3_8	Suppressed Muzzle Device C	ItemDetailsData		
+Inventory.Item.ATTMD3_9	ATTMD3_9	Suppressed Muzzle Device D	ItemDetailsData		
+Inventory.Item.ATTMD4_1	ATTMD4_1	Muzzle Device L	ItemDetailsData		
+Inventory.Item.ATTMD4_2	ATTMD4_2	Muzzle Device M	ItemDetailsData		
+Inventory.Item.ATTMD4_3	ATTMD4_3	Suppressed Muzzle Device E	ItemDetailsData		
+Inventory.Item.ATTMD4_4	ATTMD4_4	Muzzle Device N	ItemDetailsData		
+Inventory.Item.ATTMD4_5	ATTMD4_5	Muzzle Device O	ItemDetailsData		
+Inventory.Item.ATTMD4_6	ATTMD4_6	Suppressed Muzzle Device F	ItemDetailsData		
+Inventory.Item.ATTMD5_1	ATTMD5_1	Muzzle Device P	ItemDetailsData		
+Inventory.Item.ATTMD5_2	ATTMD5_2	Muzzle Device Q	ItemDetailsData		
+Inventory.Item.ATTMD6_HRF02_01	ATTMD6_HRF02_01	36M AntiTank Muzzle Device A	ItemDetailsData		
+Inventory.Item.ATTMD6_HRF02_02	ATTMD6_HRF02_02	36M AntiTank Muzzle Device B	ItemDetailsData		
+Inventory.Item.ATTMD6_PST01_01	ATTMD6_PST01_01	USP Muzzle Device A	ItemDetailsData		
+Inventory.Item.ATTMD6_RFL20_01	ATTMD6_RFL20_01	SVD Muzzle Device A	ItemDetailsData		
+Inventory.Item.Alcohol01	Alcohol01	Whiskey	ItemDetailsData	yes	
+Inventory.Item.Alcohol02	Alcohol02	Brandy	ItemDetailsData		
+Inventory.Item.Alcohol03	Alcohol03	Scotch	ItemDetailsData		
+Inventory.Item.Alcohol04	Alcohol04	Gin	ItemDetailsData		
+Inventory.Item.Alcohol05	Alcohol05	Wine	ItemDetailsData		
+Inventory.Item.Alcohol06_HighValue	Alcohol06_HighValue	Prized Alcohol	ItemDetailsData		
+Inventory.Item.AntiBossC4	AntiBossC4	Special Units DetPack	ItemDetailsData		yes
+Inventory.Item.AntiBossExtractSummon	AntiBossExtractSummon	Item Extraction Beacon	ItemDetailsData		yes
+Inventory.Item.AshenMesa_LootObject_01	AshenMesa_LootObject_01	High-Frequency Radio	ItemDetailsData		
+Inventory.Item.Awareness_LootObject_01	Awareness_LootObject_01	Rootkit Device	ItemDetailsData		
+Inventory.Item.BallBearings	BallBearings	Ball Bearings	ItemDetailsData	yes	
+Inventory.Item.Bar_Absinthe	Bar_Absinthe	Absinthe	ItemDetailsData		
+Inventory.Item.Bar_Beer	Bar_Beer	Beer	ItemDetailsData		
+Inventory.Item.Bar_EthylAlcohol	Bar_EthylAlcohol	Ethyl Alcohol	ItemDetailsData		
+Inventory.Item.Bar_Mead	Bar_Mead	Mead	ItemDetailsData		
+Inventory.Item.Bar_Mezcal	Bar_Mezcal	Mezcal	ItemDetailsData		
+Inventory.Item.Bar_Rum	Bar_Rum	Rum	ItemDetailsData		
+Inventory.Item.Bar_Tequila	Bar_Tequila	Tequila	ItemDetailsData		
+Inventory.Item.Bar_Vodka	Bar_Vodka	Vodka	ItemDetailsData		
+Inventory.Item.Bartender_BarSupplies	Bartender_BarSupplies	Bar Supplies	ItemDetailsData		
+Inventory.Item.Brawler_Loot_Eurasia	Brawler_Loot_Eurasia	Eurasian Brawler Components	ItemDetailsData		
+Inventory.Item.CashBag	CashBag	Cash	ItemDetailsData		
+Inventory.Item.CerealBox	CerealBox	MRE	ItemDetailsData		yes
+Inventory.Item.ChocBar	ChocBar	Water Canteen	ItemDetailsData		yes
+Inventory.Item.Codex.Grabber	Codex.Grabber	Grabber Codex	ItemDetailsData		
+Inventory.Item.Codex.MediumMech	Codex.MediumMech	Medium Mech Codex	ItemDetailsData		
+Inventory.Item.Codex.MotherCourage	Codex.MotherCourage	Mother Courage Codex	ItemDetailsData		
+Inventory.Item.Codex.Opal	Codex.Opal	Opal Codex	ItemDetailsData		
+Inventory.Item.Codex.Orga	Codex.Orga	Orga Codex	ItemDetailsData		
+Inventory.Item.Codex.RatKing	Codex.RatKing	Rat King Codex	ItemDetailsData		
+Inventory.Item.Codex.Toothy	Codex.Toothy	Toothy Codex	ItemDetailsData		
+Inventory.Item.CodexMeatMan	CodexMeatMan	Kotleta Codex	ItemDetailsData		
+Inventory.Item.CodexShieldOfficer	CodexShieldOfficer	Shield Officer Codex	ItemDetailsData		
+Inventory.Item.CompCanister	CompCanister	Old Paint Can	ItemDetailsData	yes	
+Inventory.Item.Cyborg_Loot_Eurasia	Cyborg_Loot_Eurasia	Cyborg's Head	ItemDetailsData	yes	
+Inventory.Item.DataCache_Quest	DataCache_Quest	Data Cache	ItemDetailsData		
+Inventory.Item.DecoLoot_01_MusicCassette	DecoLoot_01_MusicCassette	Music Cassette	ItemDetailsData		
+Inventory.Item.DecoLoot_02_Headset	DecoLoot_02_Headset	Analog Headset	ItemDetailsData		
+Inventory.Item.DecoLoot_03_Stereo	DecoLoot_03_Stereo	Stereo Box	ItemDetailsData		
+Inventory.Item.DecoLoot_04_WaterThiefMask01	DecoLoot_04_WaterThiefMask01	Water Thief's Mask "Oni"	ItemDetailsData		
+Inventory.Item.DecoLoot_05_WaterThiefMask02	DecoLoot_05_WaterThiefMask02	Water Thief's Mask "Thirsty"	ItemDetailsData		
+Inventory.Item.DecoLoot_06_WaterThiefMask03	DecoLoot_06_WaterThiefMask03	Water Thief's Mask "Bozo" 	ItemDetailsData		
+Inventory.Item.DecoLoot_07_MysticalTechTotem	DecoLoot_07_MysticalTechTotem	Mystical Tech Totem	ItemDetailsData		
+Inventory.Item.DrillDevice	DrillDevice	Deployable Drill	ItemDetailsData		
+Inventory.Item.Drone_Construction	Drone_Construction	Construction Drone	ItemDetailsData		yes
+Inventory.Item.Drone_Debris_Loot_Eurasia	Drone_Debris_Loot_Eurasia	Eurasian Drone Cortex	ItemDetailsData		
+Inventory.Item.Drone_Debris_Loot_Europa	Drone_Debris_Loot_Europa	Europan Drone Flight Controller	ItemDetailsData		
+Inventory.Item.Drone_FastTravel	Drone_FastTravel	Fast Travel  Drone	ItemDetailsData		yes
+Inventory.Item.Drone_Recovery	Drone_Recovery	Recovery Drone	ItemDetailsData	yes	yes
+Inventory.Item.EM_LootObject_01	EM_LootObject_01	Laser Rangefinder	ItemDetailsData	yes	
+Inventory.Item.ENuggets	ENuggets	E-Nuggets	ItemDetailsData		
+Inventory.Item.Electrostatic_Field	Electrostatic_Field	Electrostatic Field	ItemDetailsData		
+Inventory.Item.ExoDebrisLoot	ExoDebrisLoot	Exo Component	ItemDetailsData	yes	
+Inventory.Item.ExplosiveBarrel	ExplosiveBarrel	Xtech Explosives	ItemDetailsData		
+Inventory.Item.FirstAid	FirstAid	Small First Aid Kit	ItemDetailsData		yes
+Inventory.Item.FirstAid_Large	FirstAid_Large	Advanced First Aid Kit	ItemDetailsData		yes
+Inventory.Item.FirstAid_Med	FirstAid_Med	Standard First Aid Kit	ItemDetailsData		yes
+Inventory.Item.FoodTin	FoodTin	Food Tin	ItemDetailsData	yes	yes
+Inventory.Item.FrozenSwamp_LootObject_01	FrozenSwamp_LootObject_01	Encrypted Data Pad	ItemDetailsData		
+Inventory.Item.Fuse	Fuse	Fuse	ItemDetailsData	yes	
+Inventory.Item.GunPoweder	GunPoweder	Gunpowder	ItemDetailsData	yes	yes
+Inventory.Item.HKPart_AssaultHK	HKPart_AssaultHK	Eurasian HK's Mnemonic Index	ItemDetailsData		
+Inventory.Item.HKPart_SMGHK	HKPart_SMGHK	Eurasian Sand-Diver HK Cortical Array	ItemDetailsData		
+Inventory.Item.HKPart_SMGHK_02	HKPart_SMGHK_02	Eurasian Sand-Diver HK Memory Interface	ItemDetailsData		
+Inventory.Item.HKPart_SMGHK_03	HKPart_SMGHK_03	Eurasian Sand-Diver HK Interface Core	ItemDetailsData		
+Inventory.Item.HK_Loot_Europa	HK_Loot_Europa	EOD Suit Component	ItemDetailsData		
+Inventory.Item.HRF05_Manufacture_BreechAssembly	HRF05_Manufacture_BreechAssembly	AT-43 Breech Assembly	ItemDetailsData	yes	
+Inventory.Item.HRF05_Manufacture_Crucible	HRF05_Manufacture_Crucible	Crucible	ItemDetailsData	yes	
+Inventory.Item.HRF05_Manufacture_FeedMechanism	HRF05_Manufacture_FeedMechanism	AT-43 Feed Mechanism	ItemDetailsData	yes	
+Inventory.Item.HRF05_Manufacture_GrindStone	HRF05_Manufacture_GrindStone	Grindstone	ItemDetailsData	yes	
+Inventory.Item.HRF05_Manufacture_MaintenanceTool	HRF05_Manufacture_MaintenanceTool	Armorer's Wrench	ItemDetailsData	yes	
+Inventory.Item.HRF05_Manufacture_MuzzleAssembly	HRF05_Manufacture_MuzzleAssembly	AT-43 Muzzle Break	ItemDetailsData	yes	
+Inventory.Item.HRF05_Manufacture_SpringSystem	HRF05_Manufacture_SpringSystem	AT-43 Spring System	ItemDetailsData	yes	
+Inventory.Item.HRF05_Manufacture_TriggerAssembly	HRF05_Manufacture_TriggerAssembly	AT-43 Trigger Assembly	ItemDetailsData	yes	
+Inventory.Item.IEDxplosive	IEDxplosive	IED	ItemDetailsData		
+Inventory.Item.IFF_Eurasia_01	IFF_Eurasia_01	Eurasian IFF Chip LVL1	ItemDetailsData	yes	
+Inventory.Item.IFF_Eurasia_02	IFF_Eurasia_02	Eurasian IFF Chip LVL2	ItemDetailsData	yes	yes
+Inventory.Item.IFF_Eurasia_03	IFF_Eurasia_03	Eurasian IFF Chip LVL3	ItemDetailsData	yes	yes
+Inventory.Item.IFF_Europa_01	IFF_Europa_01	Europan IFF Chip LVL1	ItemDetailsData	yes	
+Inventory.Item.IFF_Europa_02	IFF_Europa_02	Europan IFF Chip LVL2	ItemDetailsData	yes	yes
+Inventory.Item.IFF_Europa_03	IFF_Europa_03	Europan IFF Chip LVL3	ItemDetailsData	yes	yes
+Inventory.Item.IFF_Euruskan_01	IFF_Euruskan_01	Euruskan IFF Chip LVL1	ItemDetailsData	yes	
+Inventory.Item.IFF_Euruskan_02	IFF_Euruskan_02	Euruskan IFF Chip LVL2	ItemDetailsData	yes	yes
+Inventory.Item.IFF_Euruskan_03	IFF_Euruskan_03	Euruskan IFF Chip LVL3	ItemDetailsData	yes	yes
+Inventory.Item.Instant_Extraction	Instant_Extraction	Extraction Marker	ItemDetailsData		
+Inventory.Item.Item.Ammo	Item.Ammo	Base Ammo	ItemDetailsData		
+Inventory.Item.Item.Ammo.127	Item.Ammo.127	12.7x55mm Subsonic	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.12g	Item.Ammo.12g	12-Gauge Buckshot	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.20mm	Item.Ammo.20mm	20x105mm Anti-Tank	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.308	Item.Ammo.308	.308	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.357	Item.Ammo.357	.357 Magnum	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.40mmHE	Item.Ammo.40mmHE	40mm Grenade	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.45ACP	Item.Ammo.45ACP	.45 ACP	ItemDetailsData		
+Inventory.Item.Item.Ammo.45acp					yes
+Inventory.Item.Item.Ammo.50PST	Item.Ammo.50PST	.50 PST	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.50cal	Item.Ammo.50cal	.50 BMG	ItemDetailsData	yes	yes
+Inventory.Item.Item.Ammo.545	Item.Ammo.545	5.45x39mm	ItemDetailsData	yes	yes
+Inventory.Item.Item.Ammo.545.Cryo	Item.Ammo.545.Cryo	5.45x39mm Cryo	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.545.Junk	Item.Ammo.545.Junk	5.45x39mm Surplus	ItemDetailsData		
+Inventory.Item.Item.Ammo.54R	Item.Ammo.54R	7.62x54mmR	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.556	Item.Ammo.556	5.56x45mm	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.57x28	Item.Ammo.57x28	5.7x28mm	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.762	Item.Ammo.762	7.62x39mm	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.919	Item.Ammo.919	9x19mm	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.BaitGrenade	Item.Ammo.BaitGrenade	Bait Grenade	ItemDetailsData		
+Inventory.Item.Item.Ammo.ChaffGrenade	Item.Ammo.ChaffGrenade	Chaff Grenade	ItemDetailsData		
+Inventory.Item.Item.Ammo.ClusterGrenade	Item.Ammo.ClusterGrenade	Cluster Grenade	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.FactionGrenade	Item.Ammo.FactionGrenade	Signal Scrambler Grenade	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.FlareGrenade	Item.Ammo.FlareGrenade	Flare Grenade	ItemDetailsData		
+Inventory.Item.Item.Ammo.FragGrenade	Item.Ammo.FragGrenade	Frag Grenade	ItemDetailsData	yes	yes
+Inventory.Item.Item.Ammo.HomingGrenade	Item.Ammo.HomingGrenade	Homing Grenade	ItemDetailsData		
+Inventory.Item.Item.Ammo.NoiseMakerGrenade	Item.Ammo.NoiseMakerGrenade	Decoy Grenade	ItemDetailsData		yes
+Inventory.Item.Item.Ammo.ScanningGrenade	Item.Ammo.ScanningGrenade	Scan Grenade	ItemDetailsData		
+Inventory.Item.Item.Ammo.SmokeGrenade	Item.Ammo.SmokeGrenade	Smoke Grenade	ItemDetailsData		yes
+Inventory.Item.JunkFood01	JunkFood01	Boinco Candy Bar	ItemDetailsData	yes	
+Inventory.Item.JunkFood02	JunkFood02	Potato Chips	ItemDetailsData		
+Inventory.Item.JunkFood03	JunkFood03	Pretzels	ItemDetailsData	yes	
+Inventory.Item.JunkFood04	JunkFood04	Energy Bar	ItemDetailsData	yes	
+Inventory.Item.JunkFood05	JunkFood05	Happy Cookies	ItemDetailsData		
+Inventory.Item.Merkava_Debirs_Loot	Merkava_Debirs_Loot	Merkava Suspension Component	ItemDetailsData		
+Inventory.Item.MetalFragments	MetalFragments	Metal Fragments	ItemDetailsData	yes	
+Inventory.Item.MetalPipe	MetalPipe	Metal Pipe	ItemDetailsData	yes	
+Inventory.Item.NeuroScrambler	NeuroScrambler	NeuroScrambler	ItemDetailsData		
+Inventory.Item.Octogirl_Tools_FrequencyCard	Octogirl_Tools_FrequencyCard	Paper Scrap	ItemDetailsData		
+Inventory.Item.Octogirl_Tools_QuestItem	Octogirl_Tools_QuestItem	Octogirl's Tool Set	ItemDetailsData		
+Inventory.Item.PDA	PDA	Military PDA	ItemDetailsData	yes	
+Inventory.Item.PICFGR1	PICFGR1	Foregrip A	ItemDetailsData		
+Inventory.Item.PICFGR10	PICFGR10	Foregrip J	ItemDetailsData		
+Inventory.Item.PICFGR11	PICFGR11	Foregrip K	ItemDetailsData		
+Inventory.Item.PICFGR12	PICFGR12	Foregrip L	ItemDetailsData		
+Inventory.Item.PICFGR13	PICFGR13	Foregrip M	ItemDetailsData		
+Inventory.Item.PICFGR14	PICFGR14	Foregrip N	ItemDetailsData		
+Inventory.Item.PICFGR15	PICFGR15	Foregrip O	ItemDetailsData		
+Inventory.Item.PICFGR16	PICFGR16	Foregrip P	ItemDetailsData		
+Inventory.Item.PICFGR17	PICFGR17	Foregrip Q	ItemDetailsData		
+Inventory.Item.PICFGR18	PICFGR18	PICFGR18	ItemDetailsData		
+Inventory.Item.PICFGR19	PICFGR19	PICFGR19	ItemDetailsData		
+Inventory.Item.PICFGR2	PICFGR2	Foregrip B	ItemDetailsData		
+Inventory.Item.PICFGR20	PICFGR20	PICFGR20	ItemDetailsData		
+Inventory.Item.PICFGR21	PICFGR21	PICFGR21	ItemDetailsData		
+Inventory.Item.PICFGR22	PICFGR22	PICFGR22	ItemDetailsData		
+Inventory.Item.PICFGR23	PICFGR23	PICFGR23	ItemDetailsData		
+Inventory.Item.PICFGR24	PICFGR24	PICFGR24	ItemDetailsData		
+Inventory.Item.PICFGR25	PICFGR25	PICFGR25	ItemDetailsData		
+Inventory.Item.PICFGR3	PICFGR3	Foregrip C	ItemDetailsData		
+Inventory.Item.PICFGR4	PICFGR4	Foregrip D	ItemDetailsData		
+Inventory.Item.PICFGR5	PICFGR5	Foregrip E	ItemDetailsData		
+Inventory.Item.PICFGR6	PICFGR6	Foregrip F	ItemDetailsData		
+Inventory.Item.PICFGR7	PICFGR7	Foregrip G	ItemDetailsData		
+Inventory.Item.PICFGR8	PICFGR8	Foregrip H	ItemDetailsData		
+Inventory.Item.PICFGR9	PICFGR9	Foregrip I	ItemDetailsData		
+Inventory.Item.PICFLL1	PICFLL1	Rail Mounted Flashlight A	ItemDetailsData		
+Inventory.Item.PICFLL2	PICFLL2	Rail Mounted Flashlight B	ItemDetailsData		
+Inventory.Item.PICFLL3	PICFLL3	Rail Mounted Flashlight C	ItemDetailsData		
+Inventory.Item.PICFRS1	PICFRS1	Front Sight A	ItemDetailsData		
+Inventory.Item.PICLAM1	PICLAM1	Rail Mounted Laser Sight A	ItemDetailsData		
+Inventory.Item.PICLAM2	PICLAM2	Rail Mounted Laser Sight B	ItemDetailsData		
+Inventory.Item.PICLAM3	PICLAM3	Rail Mounted Laser Sight C	ItemDetailsData		
+Inventory.Item.PICOPT1	PICOPT1	E-TECH XP Optic	ItemDetailsData		
+Inventory.Item.PICOPT10	PICOPT10	Vtex Optic	ItemDetailsData		
+Inventory.Item.PICOPT11	PICOPT11	Vtex Strike Optic	ItemDetailsData		
+Inventory.Item.PICOPT12	PICOPT12	H-sun Optic	ItemDetailsData		
+Inventory.Item.PICOPT13	PICOPT13	Stein R Optic	ItemDetailsData		
+Inventory.Item.PICOPT14	PICOPT14	Aimp Micro Optic	ItemDetailsData		
+Inventory.Item.PICOPT15	PICOPT15	Spook Optic	ItemDetailsData		
+Inventory.Item.PICOPT16	PICOPT16	ET XP2 Optic	ItemDetailsData		
+Inventory.Item.PICOPT17	PICOPT17	Tri M Optic	ItemDetailsData		
+Inventory.Item.PICOPT2	PICOPT2	ET EFX Optic	ItemDetailsData		
+Inventory.Item.PICOPT3	PICOPT3	Aimp H2 Optic	ItemDetailsData		
+Inventory.Item.PICOPT4	PICOPT4	Vtex Raz Gen 2 Optic	ItemDetailsData		
+Inventory.Item.PICOPT5	PICOPT5	Zeni-B P6 Optic	ItemDetailsData		
+Inventory.Item.PICOPT6	PICOPT6	P Arms 3P Optic	ItemDetailsData		
+Inventory.Item.PICOPT7	PICOPT7	ET HWS EXP Optic	ItemDetailsData		
+Inventory.Item.PICOPT8	PICOPT8	Vtex V Optic	ItemDetailsData		
+Inventory.Item.PICOPT9	PICOPT9	Sfox QueenKiller Optic	ItemDetailsData		
+Inventory.Item.PICRES1	PICRES1	Rear Sight A	ItemDetailsData		
+Inventory.Item.PICRES2	PICRES2	Rear Sight B	ItemDetailsData		
+Inventory.Item.PICSCP1	PICSCP1	TJ 3x	ItemDetailsData		
+Inventory.Item.PICSCP10	PICSCP10	Vtex Spit 3x	ItemDetailsData		
+Inventory.Item.PICSCP11	PICSCP11	Skeep 2x	ItemDetailsData		
+Inventory.Item.PICSCP12	PICSCP12	CVD 2x	ItemDetailsData		
+Inventory.Item.PICSCP13	PICSCP13	Monster 2x	ItemDetailsData		
+Inventory.Item.PICSCP14	PICSCP14	SureShot 2x	ItemDetailsData		
+Inventory.Item.PICSCP15	PICSCP15	TrueAimer 4x	ItemDetailsData		
+Inventory.Item.PICSCP2	PICSCP2	Vud 3x	ItemDetailsData		
+Inventory.Item.PICSCP3	PICSCP3	Tex HD 3x	ItemDetailsData		
+Inventory.Item.PICSCP4	PICSCP4	Longbomb 4x	ItemDetailsData		
+Inventory.Item.PICSCP5	PICSCP5	SDR 2x	ItemDetailsData		
+Inventory.Item.PICSCP6	PICSCP6	PArm 3x	ItemDetailsData		
+Inventory.Item.PICSCP7	PICSCP7	MidnightMight 4x	ItemDetailsData		
+Inventory.Item.PICSCP8	PICSCP8	ACG 2x	ItemDetailsData		
+Inventory.Item.PICSCP9	PICSCP9	SIGS Cheers 2x	ItemDetailsData		
+Inventory.Item.PainTolerance	PainTolerance	Pain Tolerance	ItemDetailsData		
+Inventory.Item.Personal_Shield	Personal_Shield	Personal Shield	ItemDetailsData		
+Inventory.Item.Plans01	Plans01	Intelligence Cassette	ItemDetailsData		
+Inventory.Item.Plans02	Plans02	Intelligence Disk	ItemDetailsData	yes	
+Inventory.Item.Plans03	Plans03	Military Hard Drive	ItemDetailsData	yes	
+Inventory.Item.Plans05	Plans05	Dossier	ItemDetailsData		
+Inventory.Item.Plans06	Plans06	Telemetry Unit	ItemDetailsData	yes	
+Inventory.Item.Plans07	Plans07	Manpack Radio	ItemDetailsData		
+Inventory.Item.Plans08	Plans08	Smuggled Organs	ItemDetailsData	yes	
+Inventory.Item.Plans09	Plans09	Hard Shell Laptop	ItemDetailsData		
+Inventory.Item.Poo01	Poo01	Fertilizer	ItemDetailsData	yes	yes
+Inventory.Item.Quest_AM_Picture	Quest_AM_Picture	Picture	ItemDetailsData		
+Inventory.Item.Quest_AM_Targeting_Computer	Quest_AM_Targeting_Computer	Targeting Computer	ItemDetailsData		
+Inventory.Item.Quest_AdvancedJoint	Quest_AdvancedJoint	Advanced Joint	ItemDetailsData	yes	
+Inventory.Item.Quest_ArtificialNervousSystem	Quest_ArtificialNervousSystem	Orgamech Nervous System	ItemDetailsData		
+Inventory.Item.Quest_Battle_Plans	Quest_Battle_Plans	Battle Plans	ItemDetailsData		
+Inventory.Item.Quest_Brawler_Insignia	Quest_Brawler_Insignia	Brawler Insignia	ItemDetailsData		
+Inventory.Item.Quest_Cbyerlung	Quest_Cbyerlung	Cybernetic Lungs	ItemDetailsData		
+Inventory.Item.Quest_CombatDrug	Quest_CombatDrug	Combat Stimulant	ItemDetailsData		
+Inventory.Item.Quest_CommsDevice	Quest_CommsDevice	Comms Device	ItemDetailsData		
+Inventory.Item.Quest_ConvoySchedule	Quest_ConvoySchedule	Convoy Schedule	ItemDetailsData		
+Inventory.Item.Quest_DUMMY_WEAPON_ASSEMBLY_ITEM	Quest_DUMMY_WEAPON_ASSEMBLY_ITEM	PLACEHOLDER	ItemDetailsData		
+Inventory.Item.Quest_DogTags	Quest_DogTags	Dog Tags	ItemDetailsData		
+Inventory.Item.Quest_EM_Armor_Shards	Quest_EM_Armor_Shards	EOD Armor Plate	ItemDetailsData		
+Inventory.Item.Quest_EM_Baron_Banner	Quest_EM_Baron_Banner	Banner of the Red Baron	ItemDetailsData		
+Inventory.Item.Quest_EM_Grabber_Sac	Quest_EM_Grabber_Sac	Pheromone Sac	ItemDetailsData		
+Inventory.Item.Quest_EM_Precision_Components	Quest_EM_Precision_Components	Precision Components	ItemDetailsData		
+Inventory.Item.Quest_EM_Water_Cache	Quest_EM_Water_Cache	Water Cache	ItemDetailsData		
+Inventory.Item.Quest_ExoHardDrive	Quest_ExoHardDrive	Exo Hard Drive	ItemDetailsData		
+Inventory.Item.Quest_FamilyPhoto	Quest_FamilyPhoto	Family Photo	ItemDetailsData		
+Inventory.Item.Quest_God_Sniper_Rifle	Quest_God_Sniper_Rifle	God Sniper Equipment	ItemDetailsData		
+Inventory.Item.Quest_HIND_Nav_Comp	Quest_HIND_Nav_Comp	HIND Navigation Computer	ItemDetailsData		
+Inventory.Item.Quest_Logbook	Quest_Logbook	Logbook	ItemDetailsData		
+Inventory.Item.Quest_MedicalSupplies	Quest_MedicalSupplies	Medical Supplies	ItemDetailsData		
+Inventory.Item.Quest_Memento	Quest_Memento	Memento	ItemDetailsData		
+Inventory.Item.Quest_Merkava_BodyBoss	Quest_Merkava_BodyBoss	Corpse Tank Control Panel	ItemDetailsData		
+Inventory.Item.Quest_Neuro_Uplink	Quest_Neuro_Uplink	Neuro Uplink Board	ItemDetailsData	yes	
+Inventory.Item.Quest_PersonnelData	Quest_PersonnelData	Personnel Data	ItemDetailsData		
+Inventory.Item.Quest_PlantedBug	Quest_PlantedBug	Plantable Bug	ItemDetailsData		
+Inventory.Item.Quest_PlantedCamera	Quest_PlantedCamera	Transmitting Camera	ItemDetailsData		
+Inventory.Item.Quest_PlantedMRE	Quest_PlantedMRE	Sabotaged MRE	ItemDetailsData		
+Inventory.Item.Quest_PowerSchematics	Quest_PowerSchematics	Power Schematics	ItemDetailsData		
+Inventory.Item.Quest_Radio	Quest_Radio	Radio	ItemDetailsData		
+Inventory.Item.Quest_RatKingPart	Quest_RatKingPart	Rat King's Wake	ItemDetailsData		
+Inventory.Item.Quest_SE_Weapon_Tech	Quest_SE_Weapon_Tech	Weapon Tech	ItemDetailsData		
+Inventory.Item.Quest_SN_Control_Panel	Quest_SN_Control_Panel	Control Panel	ItemDetailsData		
+Inventory.Item.Quest_SN_Crates	Quest_SN_Crates	Crates	ItemDetailsData		
+Inventory.Item.Quest_SewersPlans	Quest_SewersPlans	Sewers Technical Plans	ItemDetailsData		
+Inventory.Item.Quest_SpineComponent	Quest_SpineComponent	Brawler Spinal Joint	ItemDetailsData		
+Inventory.Item.Quest_TargetingSoftwareChip	Quest_TargetingSoftwareChip	Gyroscopic Stabilizer	ItemDetailsData		
+Inventory.Item.Quest_Teddy_Bear	Quest_Teddy_Bear	"Teddy Bear"	ItemDetailsData		
+Inventory.Item.Quest_TissueSample	Quest_TissueSample	Tissue Sample	ItemDetailsData		
+Inventory.Item.Quest_Water_Map	Quest_Water_Map	Water Map	ItemDetailsData		
+Inventory.Item.Quest_WeaponSchematics	Quest_WeaponSchematics	Weapon Schematics	ItemDetailsData		
+Inventory.Item.Quest_WetwareSystem	Quest_WetwareSystem	Wetware System	ItemDetailsData		
+Inventory.Item.RareComputerBits	RareComputerBits	Military Circuitry	ItemDetailsData	yes	
+Inventory.Item.RareLoot_100_SparkPlug	RareLoot_100_SparkPlug	Spark Plug	ItemDetailsData		
+Inventory.Item.RareLoot_101_Thermite	RareLoot_101_Thermite	Thermite	ItemDetailsData	yes	
+Inventory.Item.RareLoot_102_Matches	RareLoot_102_Matches	Matches	ItemDetailsData		
+Inventory.Item.RareLoot_103_Zippo	RareLoot_103_Zippo	Zippo Lighter	ItemDetailsData		
+Inventory.Item.RareLoot_104_FireStarterkit	RareLoot_104_FireStarterkit	Fire Starter Kit	ItemDetailsData		
+Inventory.Item.RareLoot_105_ThermalMatches	RareLoot_105_ThermalMatches	Thermal Matches	ItemDetailsData		
+Inventory.Item.RareLoot_106_PlasticExplosive	RareLoot_106_PlasticExplosive	Explosive Charge	ItemDetailsData	yes	
+Inventory.Item.RareLoot_107_Soap	RareLoot_107_Soap	Soap	ItemDetailsData		
+Inventory.Item.RareLoot_108_ToiletPaper	RareLoot_108_ToiletPaper	Toilet Paper	ItemDetailsData		
+Inventory.Item.RareLoot_109_Toothpaste	RareLoot_109_Toothpaste	Toothpaste	ItemDetailsData		
+Inventory.Item.RareLoot_10_PortableHardDrive	RareLoot_10_PortableHardDrive	Mini MD Drive	ItemDetailsData		
+Inventory.Item.RareLoot_110_Soidum	RareLoot_110_Soidum	"Beef" Flavor Packet	ItemDetailsData	yes	
+Inventory.Item.RareLoot_111_Salt	RareLoot_111_Salt	Industrial Chemicals	ItemDetailsData	yes	
+Inventory.Item.RareLoot_112_Alkaline	RareLoot_112_Alkaline	Urea	ItemDetailsData	yes	
+Inventory.Item.RareLoot_113_BugSpray	RareLoot_113_BugSpray	Bug Spray	ItemDetailsData		
+Inventory.Item.RareLoot_114_Fleece	RareLoot_114_Fleece	Fleece	ItemDetailsData		
+Inventory.Item.RareLoot_115_Cordura	RareLoot_115_Cordura	Cordura	ItemDetailsData		
+Inventory.Item.RareLoot_116_CarbonFiber	RareLoot_116_CarbonFiber	Carbon Fiber	ItemDetailsData		
+Inventory.Item.RareLoot_117_WeaponParts	RareLoot_117_WeaponParts	Weapon Parts	ItemDetailsData	yes	
+Inventory.Item.RareLoot_118_Coffee	RareLoot_118_Coffee	Deep Fried Coffee	ItemDetailsData		
+Inventory.Item.RareLoot_119_CryoCoffeeSaved	RareLoot_119_CryoCoffeeSaved	Preserved Cryo Coffee	ItemDetailsData		
+Inventory.Item.RareLoot_11_GPUCaps	RareLoot_11_GPUCaps	Printed Circuit Board	ItemDetailsData	yes	
+Inventory.Item.RareLoot_120_Camera	RareLoot_120_Camera	Camera	ItemDetailsData		
+Inventory.Item.RareLoot_121_ArmorRepairKit	RareLoot_121_ArmorRepairKit	Repair Dronelet	ItemDetailsData	yes	
+Inventory.Item.RareLoot_122_SeedsHighvalue	RareLoot_122_SeedsHighvalue	Survival Seeds	ItemDetailsData		
+Inventory.Item.RareLoot_123_Apocalypseseeds	RareLoot_123_Apocalypseseeds	Heirloom Seeds	ItemDetailsData		
+Inventory.Item.RareLoot_124_Goodies	RareLoot_124_Goodies	Goodies	ItemDetailsData		
+Inventory.Item.RareLoot_125_2x4s	RareLoot_125_2x4s	Wooden Plank	ItemDetailsData		
+Inventory.Item.RareLoot_126_sheetrock	RareLoot_126_sheetrock	Drywall	ItemDetailsData		
+Inventory.Item.RareLoot_127_woodplanks	RareLoot_127_woodplanks	Wooden Planks	ItemDetailsData		
+Inventory.Item.RareLoot_128_sheetmetal	RareLoot_128_sheetmetal	Sheet Metal	ItemDetailsData	yes	
+Inventory.Item.RareLoot_129_slats	RareLoot_129_slats	Metal Slats	ItemDetailsData		
+Inventory.Item.RareLoot_12_HardDrive	RareLoot_12_HardDrive	Hard Drive	ItemDetailsData		
+Inventory.Item.RareLoot_130_3DPrintingmaterial	RareLoot_130_3DPrintingmaterial	Printing Resin	ItemDetailsData		
+Inventory.Item.RareLoot_131_ValveAdjustmentTool	RareLoot_131_ValveAdjustmentTool	Valve Adjustment Tool	ItemDetailsData		
+Inventory.Item.RareLoot_132_MCCMilitaryComputerPowerCell	RareLoot_132_MCCMilitaryComputerPowerCell	Military Power Cell	ItemDetailsData	yes	
+Inventory.Item.RareLoot_133_PowerCell	RareLoot_133_PowerCell	Power Cell	ItemDetailsData	yes	yes
+Inventory.Item.RareLoot_134_Battery	RareLoot_134_Battery	Battery	ItemDetailsData		
+Inventory.Item.RareLoot_135_RechargeableBattery	RareLoot_135_RechargeableBattery	Rechargeable Battery	ItemDetailsData	yes	
+Inventory.Item.RareLoot_136_CarBattery	RareLoot_136_CarBattery	Car Battery	ItemDetailsData	yes	
+Inventory.Item.RareLoot_137_SolarBattery	RareLoot_137_SolarBattery	Solar Battery	ItemDetailsData		
+Inventory.Item.RareLoot_138_RechargeableBatteryCharger	RareLoot_138_RechargeableBatteryCharger	Battery Charger	ItemDetailsData	yes	
+Inventory.Item.RareLoot_139_MilitaryBattery	RareLoot_139_MilitaryBattery	Military Battery	ItemDetailsData	yes	
+Inventory.Item.RareLoot_13_SSD	RareLoot_13_SSD	Modem	ItemDetailsData	yes	
+Inventory.Item.RareLoot_140_GasmaskFilter	RareLoot_140_GasmaskFilter	GP-5 Gas Mask	ItemDetailsData		
+Inventory.Item.RareLoot_14_HDD	RareLoot_14_HDD	High Capacity Hard Drive	ItemDetailsData		
+Inventory.Item.RareLoot_15_USBStick	RareLoot_15_USBStick	U-STIK+ USB Drive	ItemDetailsData		
+Inventory.Item.RareLoot_16_GPC	RareLoot_16_GPC	Organoid Memory Board	ItemDetailsData	yes	
+Inventory.Item.RareLoot_17_ComputerFan	RareLoot_17_ComputerFan	Computer Fan	ItemDetailsData	yes	
+Inventory.Item.RareLoot_18_Processorboard	RareLoot_18_Processorboard	Processor Board	ItemDetailsData		yes
+Inventory.Item.RareLoot_19_MotherBoard	RareLoot_19_MotherBoard	Motherboard	ItemDetailsData	yes	
+Inventory.Item.RareLoot_1_Glue	RareLoot_1_Glue	Glue	ItemDetailsData		
+Inventory.Item.RareLoot_20_MilitaryComputer	RareLoot_20_MilitaryComputer	Advanced Navigation Device	ItemDetailsData	yes	yes
+Inventory.Item.RareLoot_21_DVDplayer	RareLoot_21_DVDplayer	Neuralink Disc Player	ItemDetailsData	yes	
+Inventory.Item.RareLoot_22_Blu-RayPlayer	RareLoot_22_Blu-RayPlayer	UMEGA Media Player	ItemDetailsData		
+Inventory.Item.RareLoot_23_PSU	RareLoot_23_PSU	Power Supply Unit	ItemDetailsData		
+Inventory.Item.RareLoot_24_LCD	RareLoot_24_LCD	LCD	ItemDetailsData	yes	
+Inventory.Item.RareLoot_25_OLED	RareLoot_25_OLED	OLED	ItemDetailsData		
+Inventory.Item.RareLoot_26_AdvancedProcessor	RareLoot_26_AdvancedProcessor	Wetware Processor	ItemDetailsData	yes	
+Inventory.Item.RareLoot_27_Wires	RareLoot_27_Wires	Wires	ItemDetailsData	yes	
+Inventory.Item.RareLoot_28_MilitaryCables	RareLoot_28_MilitaryCables	Military Cables	ItemDetailsData	yes	yes
+Inventory.Item.RareLoot_29_OutletPort	RareLoot_29_OutletPort	Organoid Outlet	ItemDetailsData	yes	
+Inventory.Item.RareLoot_2_SealantBuildingGlue	RareLoot_2_SealantBuildingGlue	Industrial Sealant	ItemDetailsData		
+Inventory.Item.RareLoot_30_Relay	RareLoot_30_Relay	Relay	ItemDetailsData	yes	
+Inventory.Item.RareLoot_31_ElectricMotor	RareLoot_31_ElectricMotor	Electric Motor	ItemDetailsData	yes	yes
+Inventory.Item.RareLoot_32_Screws	RareLoot_32_Screws	Screws	ItemDetailsData		
+Inventory.Item.RareLoot_33_Bolts	RareLoot_33_Bolts	Bolts	ItemDetailsData	yes	
+Inventory.Item.RareLoot_34_Nuts	RareLoot_34_Nuts	Nuts	ItemDetailsData	yes	
+Inventory.Item.RareLoot_35_Nails	RareLoot_35_Nails	Nails	ItemDetailsData	yes	
+Inventory.Item.RareLoot_36_ScrewDriver	RareLoot_36_ScrewDriver	Screwdriver	ItemDetailsData	yes	
+Inventory.Item.RareLoot_37_BoltCutters	RareLoot_37_BoltCutters	Bolt Cutters	ItemDetailsData		
+Inventory.Item.RareLoot_38_PrecisionBoltCutters	RareLoot_38_PrecisionBoltCutters	Anti-Vertex Bolt Cutters	ItemDetailsData		
+Inventory.Item.RareLoot_39_PowerDrill	RareLoot_39_PowerDrill	Rotary Hammer	ItemDetailsData		
+Inventory.Item.RareLoot_3_MeasuringTape	RareLoot_3_MeasuringTape	Measuring Tape	ItemDetailsData		
+Inventory.Item.RareLoot_40_HandDrill	RareLoot_40_HandDrill	Hand Drill	ItemDetailsData		
+Inventory.Item.RareLoot_41_Hammer	RareLoot_41_Hammer	Hammer	ItemDetailsData		
+Inventory.Item.RareLoot_42_Drill	RareLoot_42_Drill	Power Drill	ItemDetailsData		
+Inventory.Item.RareLoot_43_Wrench	RareLoot_43_Wrench	Pipe Wrench	ItemDetailsData		
+Inventory.Item.RareLoot_44_BasicPliers	RareLoot_44_BasicPliers	Basic Pliers	ItemDetailsData	yes	
+Inventory.Item.RareLoot_45_AdvancedPliers	RareLoot_45_AdvancedPliers	Advanced Pliers	ItemDetailsData		
+Inventory.Item.RareLoot_46_Sledgehammer	RareLoot_46_Sledgehammer	Sledgehammer	ItemDetailsData		
+Inventory.Item.RareLoot_47_SentientDrill	RareLoot_47_SentientDrill	Sentient Drill	ItemDetailsData		yes
+Inventory.Item.RareLoot_48_MastertoldSet	RareLoot_48_MastertoldSet	Intermediate Tool Set	ItemDetailsData		
+Inventory.Item.RareLoot_49_NormalToolset	RareLoot_49_NormalToolset	Old Tool Set	ItemDetailsData		
+Inventory.Item.RareLoot_4_DuctTape	RareLoot_4_DuctTape	Duct Tape	ItemDetailsData		
+Inventory.Item.RareLoot_50_Ratchet	RareLoot_50_Ratchet	Ratchet	ItemDetailsData		
+Inventory.Item.RareLoot_51_Multitool	RareLoot_51_Multitool	Diodegradable Multi-tool	ItemDetailsData	yes	
+Inventory.Item.RareLoot_52_Crowbar	RareLoot_52_Crowbar	Crowbar	ItemDetailsData		
+Inventory.Item.RareLoot_53_Punch	RareLoot_53_Punch	Leather Hole Punch	ItemDetailsData		
+Inventory.Item.RareLoot_54_SewingKit	RareLoot_54_SewingKit	Sewing Kit	ItemDetailsData		
+Inventory.Item.RareLoot_55_Multitool	RareLoot_55_Multitool	EDC Multi-tool	ItemDetailsData		
+Inventory.Item.RareLoot_56_Hose	RareLoot_56_Hose	Hose	ItemDetailsData		
+Inventory.Item.RareLoot_57_CarbonFiberTube	RareLoot_57_CarbonFiberTube	Carbon Fiber Tube	ItemDetailsData		
+Inventory.Item.RareLoot_58_RibbedTube	RareLoot_58_RibbedTube	Ribbed Tube	ItemDetailsData		
+Inventory.Item.RareLoot_59_ClearTube	RareLoot_59_ClearTube	Clear Tube	ItemDetailsData		
+Inventory.Item.RareLoot_5_MilitaryTape	RareLoot_5_MilitaryTape	Military Tape	ItemDetailsData	yes	
+Inventory.Item.RareLoot_60_Lighter	RareLoot_60_Lighter	Lighter	ItemDetailsData		
+Inventory.Item.RareLoot_61_LightBulbs	RareLoot_61_LightBulbs	Light Bulbs	ItemDetailsData		
+Inventory.Item.RareLoot_62_AdvancedLightBulbs	RareLoot_62_AdvancedLightBulbs	Bulkhead Lights	ItemDetailsData		
+Inventory.Item.RareLoot_63_UVLightBulb	RareLoot_63_UVLightBulb	UV Light Bulb	ItemDetailsData		
+Inventory.Item.RareLoot_64_LightBulb	RareLoot_64_LightBulb	Light Bulb	ItemDetailsData	yes	
+Inventory.Item.RareLoot_65_ESLamp	RareLoot_65_ESLamp	ES Lamp	ItemDetailsData		
+Inventory.Item.RareLoot_66_Blacklight	RareLoot_66_Blacklight	Industrial Black Light	ItemDetailsData		
+Inventory.Item.RareLoot_67_ReleaseClamp	RareLoot_67_ReleaseClamp	Clamp	ItemDetailsData		
+Inventory.Item.RareLoot_68_SurvivalLighter	RareLoot_68_SurvivalLighter	Survival Lighter	ItemDetailsData		
+Inventory.Item.RareLoot_69_WD40	RareLoot_69_WD40	WD40	ItemDetailsData		
+Inventory.Item.RareLoot_6_MaskingTape	RareLoot_6_MaskingTape	Masking Tape	ItemDetailsData		
+Inventory.Item.RareLoot_70_LiquidCooling	RareLoot_70_LiquidCooling	Liquid Coolant	ItemDetailsData		
+Inventory.Item.RareLoot_71_VentilationFilter	RareLoot_71_VentilationFilter	Ventilation Filter	ItemDetailsData		
+Inventory.Item.RareLoot_72_WeaponLubricant	RareLoot_72_WeaponLubricant	Military Grade Lubricant	ItemDetailsData	yes	
+Inventory.Item.RareLoot_73_Cleaner	RareLoot_73_Cleaner	Cleaner	ItemDetailsData		
+Inventory.Item.RareLoot_74_MachineParts	RareLoot_74_MachineParts	Machine Parts	ItemDetailsData	yes	
+Inventory.Item.RareLoot_75_ConstructionFoam	RareLoot_75_ConstructionFoam	Construction Foam	ItemDetailsData		
+Inventory.Item.RareLoot_76_ConcretePowder	RareLoot_76_ConcretePowder	Concrete Powder	ItemDetailsData		
+Inventory.Item.RareLoot_77_ConcreteMixer	RareLoot_77_ConcreteMixer	Concrete Mixer	ItemDetailsData		
+Inventory.Item.RareLoot_78_Plugcord	RareLoot_78_Plugcord	Organoid Plug	ItemDetailsData	yes	
+Inventory.Item.RareLoot_79_Vitamins	RareLoot_79_Vitamins	Zonophor Tablets	ItemDetailsData		
+Inventory.Item.RareLoot_7_SuperGlueSmall	RareLoot_7_SuperGlueSmall	Super Glue	ItemDetailsData		
+Inventory.Item.RareLoot_80_MedicalAlchohol	RareLoot_80_MedicalAlchohol	Medical Alcohol	ItemDetailsData	yes	
+Inventory.Item.RareLoot_81_Syringe	RareLoot_81_Syringe	Syringe	ItemDetailsData	yes	
+Inventory.Item.RareLoot_82_MedicalScanner	RareLoot_82_MedicalScanner	Diagnostic Scanner	ItemDetailsData		
+Inventory.Item.RareLoot_83_BloodPacs	RareLoot_83_BloodPacs	Blood Packs	ItemDetailsData	yes	
+Inventory.Item.RareLoot_84_MedicalTools	RareLoot_84_MedicalTools	Medical Tools	ItemDetailsData	yes	
+Inventory.Item.RareLoot_85_AdvancedMedicalTools	RareLoot_85_AdvancedMedicalTools	Heavy-Duty Trauma Kit	ItemDetailsData		yes
+Inventory.Item.RareLoot_86_Ai.Medicaltools	RareLoot_86_Ai.Medicaltools	Occulomide Auto-Surgeon	ItemDetailsData		
+Inventory.Item.RareLoot_87_Stethoscope	RareLoot_87_Stethoscope	Stethoscope	ItemDetailsData		
+Inventory.Item.RareLoot_88_MiscMedication	RareLoot_88_MiscMedication	Assorted Medicine	ItemDetailsData	yes	
+Inventory.Item.RareLoot_89_Bandages	RareLoot_89_Bandages	Bandages	ItemDetailsData	yes	
+Inventory.Item.RareLoot_8_ConstructionGlue	RareLoot_8_ConstructionGlue	Construction Glue	ItemDetailsData		
+Inventory.Item.RareLoot_90_Tourniquets	RareLoot_90_Tourniquets	Tourniquet	ItemDetailsData	yes	
+Inventory.Item.RareLoot_91_CyborgImmunosuppressant	RareLoot_91_CyborgImmunosuppressant	Cyborg Immunosuppressant	ItemDetailsData		
+Inventory.Item.RareLoot_92_SolidState	RareLoot_92_SolidState	Quantum Hard Drive	ItemDetailsData		
+Inventory.Item.RareLoot_93_LiquidCoolingUnit	RareLoot_93_LiquidCoolingUnit	Liquid Cooling Unit	ItemDetailsData		
+Inventory.Item.RareLoot_94_Thermometer	RareLoot_94_Thermometer	Thermometer	ItemDetailsData		
+Inventory.Item.RareLoot_95_Pressuregauge	RareLoot_95_Pressuregauge	Pressure Gauge	ItemDetailsData		
+Inventory.Item.RareLoot_96_VentilationRegulator	RareLoot_96_VentilationRegulator	Ventilation Regulator	ItemDetailsData		
+Inventory.Item.RareLoot_97_AdvancedNetworkboard	RareLoot_97_AdvancedNetworkboard	Organoid Networking Board	ItemDetailsData		yes
+Inventory.Item.RareLoot_98_Militarycodebreaker	RareLoot_98_Militarycodebreaker	Military Codebreaker	ItemDetailsData		yes
+Inventory.Item.RareLoot_99_CameraLens	RareLoot_99_CameraLens	Camera Lens	ItemDetailsData	yes	
+Inventory.Item.RareLoot_9_CPU	RareLoot_9_CPU	CPU	ItemDetailsData	yes	yes
+Inventory.Item.RareMetals	RareMetals	Rare Metals	ItemDetailsData	yes	
+Inventory.Item.Reinforced_Personal_Shield	Reinforced_Personal_Shield	Reinforced Personal Shield	ItemDetailsData		
+Inventory.Item.Shanti_LootObject_01	Shanti_LootObject_01	Scavenger's Go-Bag	ItemDetailsData		
+Inventory.Item.SignalScrambler	SignalScrambler	Multi-frequency Broadcaster	ItemDetailsData		
+Inventory.Item.Stim	Stim	Adrenaline Stim	ItemDetailsData		yes
+Inventory.Item.T90_Debirs_Loot	T90_Debirs_Loot	T-90 Suspension Component	ItemDetailsData		
+Inventory.Item.Tobacco01	Tobacco01	Dogboro Cigarettes	ItemDetailsData	yes	
+Inventory.Item.Tobacco02	Tobacco02	Nucky Gold Cigarettes	ItemDetailsData		
+Inventory.Item.Tobacco03	Tobacco03	Hinoko Cigarettes	ItemDetailsData		
+Inventory.Item.Tools01	Tools01	Field Repair Kit	ItemDetailsData		
+Inventory.Item.Tools02	Tools02	Glue Gun	ItemDetailsData		
+Inventory.Item.Tools03	Tools03	Jumper Cable Kit	ItemDetailsData		
+Inventory.Item.Tools04	Tools04	Exo Repair Kit	ItemDetailsData		
+Inventory.Item.Tools05	Tools05	Portable Generator	ItemDetailsData		
+Inventory.Item.Tools06	Tools06	Scavenger's Tool Kit	ItemDetailsData		
+Inventory.Item.Tools10	Tools10	Precision Tool Set	ItemDetailsData	yes	
+Inventory.Item.Tools11	Tools11	Heavy-Duty Battery	ItemDetailsData	yes	
+Inventory.Item.Toy01	Toy01	Toy Dinosaur	ItemDetailsData		
+Inventory.Item.Toy02	Toy02	Toy Car	ItemDetailsData		
+Inventory.Item.Toy03	Toy03	Toy Train	ItemDetailsData		
+Inventory.Item.TransTower_Quest_Marker	TransTower_Quest_Marker	Frequency Tap	ItemDetailsData	yes	
+Inventory.Item.Turret_Debris_Loot	Turret_Debris_Loot	Turret Component	ItemDetailsData	yes	
+Inventory.Item.Validation_LootObject_01	Validation_LootObject_01	Euruskan Plans 	ItemDetailsData		
+Inventory.Item.WPN_GRL01_STK_01	WPN_GRL01_STK_01	Weapon Stock	ItemDetailsData		
+Inventory.Item.WPN_HRF01_BRL_01	WPN_HRF01_BRL_01	SCAR Barrel A	ItemDetailsData		
+Inventory.Item.WPN_HRF01_BRL_02	WPN_HRF01_BRL_02	SCAR Barrel B	ItemDetailsData		
+Inventory.Item.WPN_HRF01_BRL_03	WPN_HRF01_BRL_03	SCAR Barrel C	ItemDetailsData		
+Inventory.Item.WPN_HRF01_BRL_04	WPN_HRF01_BRL_04	SCAR Barrel D	ItemDetailsData		
+Inventory.Item.WPN_HRF01_FRS_01	WPN_HRF01_FRS_01	SCAR Front Sight	ItemDetailsData		
+Inventory.Item.WPN_HRF01_HGD_01	WPN_HRF01_HGD_01	SCAR Handguard A	ItemDetailsData		
+Inventory.Item.WPN_HRF01_HGD_02	WPN_HRF01_HGD_02	SCAR Handguard B	ItemDetailsData		
+Inventory.Item.WPN_HRF01_HGD_03	WPN_HRF01_HGD_03	SCAR Handguard C	ItemDetailsData		
+Inventory.Item.WPN_HRF01_HGD_04	WPN_HRF01_HGD_04	SCAR Handguard D	ItemDetailsData		
+Inventory.Item.WPN_HRF01_HGD_05	WPN_HRF01_HGD_05	SCAR Handgaurd E	ItemDetailsData		
+Inventory.Item.WPN_HRF01_HGD_06	WPN_HRF01_HGD_06	SCAR Handguard F	ItemDetailsData		
+Inventory.Item.WPN_HRF01_MAG_50_01	WPN_HRF01_MAG_50_01	SCAR Magazine A	ItemDetailsData		
+Inventory.Item.WPN_HRF01_MAG_50_02	WPN_HRF01_MAG_50_02	SCAR Magazine B	ItemDetailsData		
+Inventory.Item.WPN_HRF01_MAG_50_03	WPN_HRF01_MAG_50_03	SCAR Magazine C	ItemDetailsData		
+Inventory.Item.WPN_HRF01_MAG_50_04	WPN_HRF01_MAG_50_04	SCAR Magazine D	ItemDetailsData		
+Inventory.Item.WPN_HRF01_STK_01_STKFLD_1	WPN_HRF01_STK_01_STKFLD_1	SCAR Stock	ItemDetailsData		
+Inventory.Item.WPN_HRF02_HGD_01	WPN_HRF02_HGD_01	36M AntiTank Handguard A	ItemDetailsData		
+Inventory.Item.WPN_HRF02_STK_01	WPN_HRF02_STK_01	36M AntiTank Stock Support	ItemDetailsData		
+Inventory.Item.WPN_LMG01_BRL_01	WPN_LMG01_BRL_01	MG34 Barrel A	ItemDetailsData		
+Inventory.Item.WPN_LMG01_BRL_02	WPN_LMG01_BRL_02	MG34 Barrel B	ItemDetailsData		
+Inventory.Item.WPN_LMG02_BRL_01	WPN_LMG02_BRL_01	SAW Barrel A	ItemDetailsData		
+Inventory.Item.WPN_LMG02_BRL_02	WPN_LMG02_BRL_02	SAW Barrel B	ItemDetailsData		
+Inventory.Item.WPN_LMG02_FRS_01	WPN_LMG02_FRS_01	SAW Front Sight A	ItemDetailsData		
+Inventory.Item.WPN_LMG02_GAS_01	WPN_LMG02_GAS_01	SAW Gas Tube A	ItemDetailsData		
+Inventory.Item.WPN_LMG02_GAS_02	WPN_LMG02_GAS_02	SAW Gas Tube B	ItemDetailsData		
+Inventory.Item.WPN_LMG02_HGD_01	WPN_LMG02_HGD_01	SAW Handguard A	ItemDetailsData		
+Inventory.Item.WPN_LMG02_HGD_01_1	WPN_LMG02_HGD_01_1	SAW Handguard D	ItemDetailsData		
+Inventory.Item.WPN_LMG02_HGD_02	WPN_LMG02_HGD_02	SAW Handguard B	ItemDetailsData		
+Inventory.Item.WPN_LMG02_HGD_03	WPN_LMG02_HGD_03	SAW Handguard C	ItemDetailsData		
+Inventory.Item.WPN_LMG02_MAG_556_01	WPN_LMG02_MAG_556_01	SAW Magazine A	ItemDetailsData		
+Inventory.Item.WPN_LMG02_MAG_556_02	WPN_LMG02_MAG_556_02	SAW Magazine B	ItemDetailsData		
+Inventory.Item.WPN_LMG02_PGR_01	WPN_LMG02_PGR_01	SAW Grip A	ItemDetailsData		
+Inventory.Item.WPN_LMG02_PGR_02	WPN_LMG02_PGR_02	SAW Grip B	ItemDetailsData		
+Inventory.Item.WPN_LMG02_STK_01	WPN_LMG02_STK_01	SAW Stock A	ItemDetailsData		
+Inventory.Item.WPN_LMG02_STK_02	WPN_LMG02_STK_02	SAW Stock B	ItemDetailsData		
+Inventory.Item.WPN_LMG03_FRS_01	WPN_LMG03_FRS_01	M60 Front Sight A	ItemDetailsData		
+Inventory.Item.WPN_LMG03_HGD_01	WPN_LMG03_HGD_01	M60 Handguard A	ItemDetailsData		
+Inventory.Item.WPN_LMG03_HGD_01_1	WPN_LMG03_HGD_01_1	M60 Handguard B	ItemDetailsData		
+Inventory.Item.WPN_LMG03_RES_01	WPN_LMG03_RES_01	M60 Rear Sight B	ItemDetailsData		
+Inventory.Item.WPN_LMG04_BRL_01	WPN_LMG04_BRL_01	RPD Barrel A	ItemDetailsData		
+Inventory.Item.WPN_LMG04_BRL_02	WPN_LMG04_BRL_02	RPD Barrel B	ItemDetailsData		
+Inventory.Item.WPN_LMG04_HGD_01	WPN_LMG04_HGD_01	RPD Handguard A	ItemDetailsData		
+Inventory.Item.WPN_LMG04_HGD_01_1	WPN_LMG04_HGD_01_1	RPD Handguard B	ItemDetailsData		
+Inventory.Item.WPN_LMG04_STK_01	WPN_LMG04_STK_01	RPD Barrel C	ItemDetailsData		
+Inventory.Item.WPN_PST01_HGD_01	WPN_PST01_HGD_01	USP Handguard A	ItemDetailsData		
+Inventory.Item.WPN_PST01_STK_01	WPN_PST01_STK_01	USP Stock A	ItemDetailsData		
+Inventory.Item.WPN_PST02_UPP_01	WPN_PST02_UPP_01	SOG Receiver A	ItemDetailsData		
+Inventory.Item.WPN_PST02_UPP_02	WPN_PST02_UPP_02	SOG Receiver B	ItemDetailsData		
+Inventory.Item.WPN_PST03_MAG_919_01	WPN_PST03_MAG_919_01	Target Pistol Magazine A	ItemDetailsData		
+Inventory.Item.WPN_PST03_MAG_919_02	WPN_PST03_MAG_919_02	Target Pistol Magazine B	ItemDetailsData		
+Inventory.Item.WPN_PST04_UPP_01	WPN_PST04_UPP_01	C96 Pistol Receiver A	ItemDetailsData		
+Inventory.Item.WPN_PST04_UPP_02	WPN_PST04_UPP_02	C96 Pistol Receiver B	ItemDetailsData		
+Inventory.Item.WPN_PST05_UPP_01	WPN_PST05_UPP_01	WPN_PST05_UPP_01	ItemDetailsData		
+Inventory.Item.WPN_PST07_BRL_01	WPN_PST07_BRL_01	M79 Barrel A	ItemDetailsData		
+Inventory.Item.WPN_PST07_BRL_02	WPN_PST07_BRL_02	M79 Barrel B	ItemDetailsData		
+Inventory.Item.WPN_PST07_FMS_01	WPN_PST07_FMS_01	M79 Sight A	ItemDetailsData		
+Inventory.Item.WPN_PST07_FMS_02	WPN_PST07_FMS_02	M79 Sight B	ItemDetailsData		
+Inventory.Item.WPN_PST07_HGD_01	WPN_PST07_HGD_01	M79 Handguard A	ItemDetailsData		
+Inventory.Item.WPN_PST07_HGD_02	WPN_PST07_HGD_02	M79 Handguard B	ItemDetailsData		
+Inventory.Item.WPN_PST07_MAG_40m_01	WPN_PST07_MAG_40m_01	M79 Magazine A	ItemDetailsData		
+Inventory.Item.WPN_PST07_MAG_40m_02	WPN_PST07_MAG_40m_02	M79 Magazine B	ItemDetailsData		
+Inventory.Item.WPN_PST07_PGR_01	WPN_PST07_PGR_01	M79 Grip A	ItemDetailsData		
+Inventory.Item.WPN_PST07_PGR_02	WPN_PST07_PGR_02	M79 Grip B	ItemDetailsData		
+Inventory.Item.WPN_PST07_RLS_01	WPN_PST07_RLS_01	M79 Sight A	ItemDetailsData		
+Inventory.Item.WPN_PST07_RLS_02	WPN_PST07_RLS_02	M79 Sight B	ItemDetailsData		
+Inventory.Item.WPN_PST07_TRG_01	WPN_PST07_TRG_01	M79 Trigger A	ItemDetailsData		
+Inventory.Item.WPN_PST07_TRG_02	WPN_PST07_TRG_02	M79 Trigger B	ItemDetailsData		
+Inventory.Item.WPN_PST07_UPP_01	WPN_PST07_UPP_01	M79 Receiver A	ItemDetailsData		
+Inventory.Item.WPN_PST07_UPP_02	WPN_PST07_UPP_02	M79 Receiver B	ItemDetailsData		
+Inventory.Item.WPN_PST10_MAG_919_01	WPN_PST10_MAG_919_01	G-L 19 Magazine A	ItemDetailsData		
+Inventory.Item.WPN_PST10_MAG_919_02	WPN_PST10_MAG_919_02	G-L 19 Magazine B	ItemDetailsData		
+Inventory.Item.WPN_PST10_UPP_01	WPN_PST10_UPP_01	G-L 19 Upper Assmbly A	ItemDetailsData		
+Inventory.Item.WPN_PST10_UPP_02	WPN_PST10_UPP_02	G-L 19 Upper Assmbly B	ItemDetailsData		
+Inventory.Item.WPN_PST10_UPP_03	WPN_PST10_UPP_03	G-L 19 Upper Assmbly C	ItemDetailsData		
+Inventory.Item.WPN_RFL01_BRL_01	WPN_RFL01_BRL_01	AK Barrel A	ItemDetailsData		
+Inventory.Item.WPN_RFL01_BRL_02	WPN_RFL01_BRL_02	AK Barrel B	ItemDetailsData		
+Inventory.Item.WPN_RFL01_BRL_03	WPN_RFL01_BRL_03	AK Barrel C	ItemDetailsData		
+Inventory.Item.WPN_RFL01_BRL_04	WPN_RFL01_BRL_04	AK Barrel D	ItemDetailsData		
+Inventory.Item.WPN_RFL01_GAS_02	WPN_RFL01_GAS_02	Kala Gas Tube B	ItemDetailsData		
+Inventory.Item.WPN_RFL01_GAS_03	WPN_RFL01_GAS_03	Kala Gas Tube C	ItemDetailsData		
+Inventory.Item.WPN_RFL01_GAS_04	WPN_RFL01_GAS_04	Kala Gas Tube D	ItemDetailsData		
+Inventory.Item.WPN_RFL01_GAS_05	WPN_RFL01_GAS_05	Kala Gas Tube E	ItemDetailsData		
+Inventory.Item.WPN_RFL01_HGD09	WPN_RFL01_HGD09	Kala Handguard I	ItemDetailsData		
+Inventory.Item.WPN_RFL01_HGD11	WPN_RFL01_HGD11	Kala Handguard J	ItemDetailsData		
+Inventory.Item.WPN_RFL01_HGD_01	WPN_RFL01_HGD_01	Kala Handguard A	ItemDetailsData		
+Inventory.Item.WPN_RFL01_HGD_01A	WPN_RFL01_HGD_01A	Kala Handguard A-1	ItemDetailsData		
+Inventory.Item.WPN_RFL01_HGD_01B	WPN_RFL01_HGD_01B	Kala Handguard A-2	ItemDetailsData		
+Inventory.Item.WPN_RFL01_HGD_02	WPN_RFL01_HGD_02	Kala Handguard B	ItemDetailsData		
+Inventory.Item.WPN_RFL01_HGD_02A	WPN_RFL01_HGD_02A	Kala Handguard B-1	ItemDetailsData		
+Inventory.Item.WPN_RFL01_HGD_02B	WPN_RFL01_HGD_02B	Kala Handguard B-2	ItemDetailsData		
+Inventory.Item.WPN_RFL01_HGD_03	WPN_RFL01_HGD_03	Kala Handguard C	ItemDetailsData		
+Inventory.Item.WPN_RFL01_HGD_04	WPN_RFL01_HGD_04	Kala Handguard D	ItemDetailsData		
+Inventory.Item.WPN_RFL01_HGD_05	WPN_RFL01_HGD_05	Kala Handguard E	ItemDetailsData		
+Inventory.Item.WPN_RFL01_HGD_06	WPN_RFL01_HGD_06	Kala Handguard F	ItemDetailsData		
+Inventory.Item.WPN_RFL01_HGD_07	WPN_RFL01_HGD_07	Kala Handguard G	ItemDetailsData		
+Inventory.Item.WPN_RFL01_HGD_10	WPN_RFL01_HGD_10	Kala Handguard H	ItemDetailsData		
+Inventory.Item.WPN_RFL01_MAG_545_01	WPN_RFL01_MAG_545_01	Kala Magazine A	ItemDetailsData		
+Inventory.Item.WPN_RFL01_MAG_545_02	WPN_RFL01_MAG_545_02	Kala Magazine B	ItemDetailsData		
+Inventory.Item.WPN_RFL01_MAG_545_03	WPN_RFL01_MAG_545_03	Kala Magazine C	ItemDetailsData		
+Inventory.Item.WPN_RFL01_MAG_545_04	WPN_RFL01_MAG_545_04	Kala Magazine D	ItemDetailsData		
+Inventory.Item.WPN_RFL01_MAG_545_05	WPN_RFL01_MAG_545_05	Kala Magazine E	ItemDetailsData		
+Inventory.Item.WPN_RFL01_MAG_545_05A	WPN_RFL01_MAG_545_05A	Kala Magazine E-1	ItemDetailsData		
+Inventory.Item.WPN_RFL01_MAG_545_06	WPN_RFL01_MAG_545_06	Kala Magazine F	ItemDetailsData		
+Inventory.Item.WPN_RFL01_MAG_545_07	WPN_RFL01_MAG_545_07	Kala Magazine G	ItemDetailsData		
+Inventory.Item.WPN_RFL01_MAG_545_08	WPN_RFL01_MAG_545_08	Kala Magazine H	ItemDetailsData		
+Inventory.Item.WPN_RFL01_MAG_545_10	WPN_RFL01_MAG_545_10	Kala Magazine I	ItemDetailsData		
+Inventory.Item.WPN_RFL01_PGR_01	WPN_RFL01_PGR_01	Kala Grip A	ItemDetailsData		
+Inventory.Item.WPN_RFL01_PGR_01A	WPN_RFL01_PGR_01A	Kala Grip A-1	ItemDetailsData		
+Inventory.Item.WPN_RFL01_PGR_01B	WPN_RFL01_PGR_01B	Kala Grip A-2	ItemDetailsData		
+Inventory.Item.WPN_RFL01_PGR_02	WPN_RFL01_PGR_02	Kala Grip B	ItemDetailsData		
+Inventory.Item.WPN_RFL01_PGR_03	WPN_RFL01_PGR_03	Kala Grip C	ItemDetailsData		
+Inventory.Item.WPN_RFL01_PGR_04	WPN_RFL01_PGR_04	Kala Grip D	ItemDetailsData		
+Inventory.Item.WPN_RFL01_PGR_06	WPN_RFL01_PGR_06	WPN_RFL01_PGR_06	ItemDetailsData		
+Inventory.Item.WPN_RFL01_STK_01	WPN_RFL01_STK_01	Kala Stock A	ItemDetailsData		
+Inventory.Item.WPN_RFL01_STK_02	WPN_RFL01_STK_02	Kala Stock B	ItemDetailsData		
+Inventory.Item.WPN_RFL01_STK_02A	WPN_RFL01_STK_02A	Kala Stock B-1	ItemDetailsData		
+Inventory.Item.WPN_RFL01_STK_02B	WPN_RFL01_STK_02B	Kala Stock B-2	ItemDetailsData		
+Inventory.Item.WPN_RFL01_STK_03	WPN_RFL01_STK_03	Kala Stock C	ItemDetailsData		
+Inventory.Item.WPN_RFL01_STK_03A	WPN_RFL01_STK_03A	Kala Stock C-1	ItemDetailsData		
+Inventory.Item.WPN_RFL01_STK_03B	WPN_RFL01_STK_03B	Kala Stock C-2	ItemDetailsData		
+Inventory.Item.WPN_RFL01_STK_04	WPN_RFL01_STK_04	Kala Stock D	ItemDetailsData		
+Inventory.Item.WPN_RFL01_STK_05	WPN_RFL01_STK_05	Kala Stock E	ItemDetailsData		
+Inventory.Item.WPN_RFL01_UPP_01	WPN_RFL01_UPP_01	Kala Upper Assembly A	ItemDetailsData		
+Inventory.Item.WPN_RFL01_UPP_02	WPN_RFL01_UPP_02	Kala Upper Assembly B	ItemDetailsData		
+Inventory.Item.WPN_RFL02_UPP_01	WPN_RFL02_UPP_01	VHS2 Upper Assembly A	ItemDetailsData		
+Inventory.Item.WPN_RFL02_UPP_02	WPN_RFL02_UPP_02	VHS2 Upper Assembly B	ItemDetailsData		
+Inventory.Item.WPN_RFL05_BRL_01	WPN_RFL05_BRL_01	DW K2 Barrel A	ItemDetailsData		
+Inventory.Item.WPN_RFL05_BRL_02	WPN_RFL05_BRL_02	DW K2 Barrel B	ItemDetailsData		
+Inventory.Item.WPN_RFL05_GAS_01	WPN_RFL05_GAS_01	DW K2 Gas Tube A	ItemDetailsData		
+Inventory.Item.WPN_RFL05_GAS_02	WPN_RFL05_GAS_02	DW K2 Gas Tube B	ItemDetailsData		
+Inventory.Item.WPN_RFL05_HGD_01	WPN_RFL05_HGD_01	DW K2 Handguard A	ItemDetailsData		
+Inventory.Item.WPN_RFL05_HGD_02	WPN_RFL05_HGD_02	DW K2 Handguard B	ItemDetailsData		
+Inventory.Item.WPN_RFL05_HGD_03	WPN_RFL05_HGD_03	DW K2 Handguard C	ItemDetailsData		
+Inventory.Item.WPN_RFL10_CHG_01	WPN_RFL10_CHG_01	Type 47 Charging Handle A	ItemDetailsData		
+Inventory.Item.WPN_RFL10_CHG_02	WPN_RFL10_CHG_02	Type 47 Charging Handle B	ItemDetailsData		
+Inventory.Item.WPN_RFL10_HGD_01	WPN_RFL10_HGD_01	Type 47 Handguard A	ItemDetailsData		
+Inventory.Item.WPN_RFL10_HGD_02	WPN_RFL10_HGD_02	Type 47 Handguard B	ItemDetailsData		
+Inventory.Item.WPN_RFL10_HGD_03	WPN_RFL10_HGD_03	Type 47 Handguard C	ItemDetailsData		
+Inventory.Item.WPN_RFL12_BRL_01	WPN_RFL12_BRL_01	M4A1 Barrel A	ItemDetailsData		
+Inventory.Item.WPN_RFL12_BRL_02	WPN_RFL12_BRL_02	M4A1 Barrel B	ItemDetailsData		
+Inventory.Item.WPN_RFL12_BRL_03	WPN_RFL12_BRL_03	M4A1 Barrel C	ItemDetailsData		
+Inventory.Item.WPN_RFL12_BRL_04	WPN_RFL12_BRL_04	M4A1 Barrel	ItemDetailsData		
+Inventory.Item.WPN_RFL12_CHG_01	WPN_RFL12_CHG_01	M4A1 Charging Handle A	ItemDetailsData		
+Inventory.Item.WPN_RFL12_CHG_02	WPN_RFL12_CHG_02	M4A1 Charging Handle B	ItemDetailsData		
+Inventory.Item.WPN_RFL12_CHG_03	WPN_RFL12_CHG_03	M4A1 Charging Handle C	ItemDetailsData		
+Inventory.Item.WPN_RFL12_GAS_01	WPN_RFL12_GAS_01	M4A1 Gas Tube A	ItemDetailsData		
+Inventory.Item.WPN_RFL12_GAS_02	WPN_RFL12_GAS_02	M4A1 Gas Tube B	ItemDetailsData		
+Inventory.Item.WPN_RFL12_GAS_03	WPN_RFL12_GAS_03	M4A1 Gas Tube C	ItemDetailsData		
+Inventory.Item.WPN_RFL12_GAS_04	WPN_RFL12_GAS_04	M4A1 Gas Tube	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_01	WPN_RFL12_HGD_01	NSN Handguard A	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_02	WPN_RFL12_HGD_02	NSN Handguard B	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_03	WPN_RFL12_HGD_03	NSN Handguard C	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_04	WPN_RFL12_HGD_04	M4A1 Handguard Upgrade	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_05	WPN_RFL12_HGD_05	M4A1 Handguard Upgrade	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_06	WPN_RFL12_HGD_06	M4A1 Handguard Upgrade	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_07	WPN_RFL12_HGD_07	M4A1 Handguard Upgrade	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_08	WPN_RFL12_HGD_08	M4A1 Handguard Upgrade	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_09	WPN_RFL12_HGD_09	M4A1 Handguard Upgrade	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_10	WPN_RFL12_HGD_10	M4A1 Handguard Upgrade	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_11	WPN_RFL12_HGD_11	M4A1 Handguard Upgrade	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_12	WPN_RFL12_HGD_12	M4A1 Handguard Upgrade	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_13	WPN_RFL12_HGD_13	M4A1 Handguard Upgrade	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_14	WPN_RFL12_HGD_14	M4A1 Handguard Upgrade	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_15	WPN_RFL12_HGD_15	M4A1 Handguard Upgrade	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_16	WPN_RFL12_HGD_16	M4A1 Handguard Upgrade	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_17	WPN_RFL12_HGD_17	M4A1 Handguard Upgrade	ItemDetailsData		
+Inventory.Item.WPN_RFL12_HGD_18	WPN_RFL12_HGD_18	M4A1 Handguard Upgrade	ItemDetailsData		
+Inventory.Item.WPN_RFL12_MAG_556_01	WPN_RFL12_MAG_556_01	M4A1 Magazine A	ItemDetailsData		
+Inventory.Item.WPN_RFL12_MAG_556_02	WPN_RFL12_MAG_556_02	M4A1 Magazine B	ItemDetailsData		
+Inventory.Item.WPN_RFL12_MAG_556_03	WPN_RFL12_MAG_556_03	M4A1 Magazine	ItemDetailsData		
+Inventory.Item.WPN_RFL12_PGR_01	WPN_RFL12_PGR_01	NSN Grip A	ItemDetailsData		
+Inventory.Item.WPN_RFL12_PGR_02	WPN_RFL12_PGR_02	NSN Grip B	ItemDetailsData		
+Inventory.Item.WPN_RFL12_PGR_03	WPN_RFL12_PGR_03	NSN Grip C	ItemDetailsData		
+Inventory.Item.WPN_RFL12_PGR_04	WPN_RFL12_PGR_04	M4A1 Pistol Grip	ItemDetailsData		
+Inventory.Item.WPN_RFL12_PGR_05	WPN_RFL12_PGR_05	M4A1 Pistol Grip	ItemDetailsData		
+Inventory.Item.WPN_RFL12_PGR_06	WPN_RFL12_PGR_06	M4A1 Pistol Grip	ItemDetailsData		
+Inventory.Item.WPN_RFL12_STK_01	WPN_RFL12_STK_01	NSN Stock A	ItemDetailsData		
+Inventory.Item.WPN_RFL12_STK_02	WPN_RFL12_STK_02	NSN Stock B	ItemDetailsData		
+Inventory.Item.WPN_RFL12_STK_03	WPN_RFL12_STK_03	NSN Stock C	ItemDetailsData		
+Inventory.Item.WPN_RFL12_STK_04	WPN_RFL12_STK_04	M4A1 Stock	ItemDetailsData		
+Inventory.Item.WPN_RFL12_STK_05	WPN_RFL12_STK_05	M4A1 Stock	ItemDetailsData		
+Inventory.Item.WPN_RFL12_STK_06	WPN_RFL12_STK_06	M4A1 Stock	ItemDetailsData		
+Inventory.Item.WPN_RFL12_STK_07	WPN_RFL12_STK_07	M4A1 Stock	ItemDetailsData		
+Inventory.Item.WPN_RFL12_STK_08	WPN_RFL12_STK_08	M4A1 Stock	ItemDetailsData		
+Inventory.Item.WPN_RFL12_STK_09	WPN_RFL12_STK_09	M4A1 Stock	ItemDetailsData		
+Inventory.Item.WPN_RFL12_UPP_01	WPN_RFL12_UPP_01	M4A1 Receiver A	ItemDetailsData		
+Inventory.Item.WPN_RFL12_UPP_02	WPN_RFL12_UPP_02	M4A1 Receiver B	ItemDetailsData		
+Inventory.Item.WPN_RFL12_UPP_03	WPN_RFL12_UPP_03	M4A1 Receiver C	ItemDetailsData		
+Inventory.Item.WPN_RFL15_BRL_01	WPN_RFL15_BRL_01	SA58 Barrel A	ItemDetailsData		
+Inventory.Item.WPN_RFL15_BRL_02	WPN_RFL15_BRL_02	SA58 Barrel B	ItemDetailsData		
+Inventory.Item.WPN_RFL15_MAG_308_01	WPN_RFL15_MAG_308_01	SA58 Magazine A	ItemDetailsData		
+Inventory.Item.WPN_RFL15_MAG_308_02	WPN_RFL15_MAG_308_02	SA58 Magazine B	ItemDetailsData		
+Inventory.Item.WPN_RFL15_STK_01_STKFLD_1	WPN_RFL15_STK_01_STKFLD_1	SA58 Folded Stock	ItemDetailsData		
+Inventory.Item.WPN_RFL16_BRL_01	WPN_RFL16_BRL_01	G36 Barrel A	ItemDetailsData		
+Inventory.Item.WPN_RFL16_BRL_02	WPN_RFL16_BRL_02	G36 Barrel B	ItemDetailsData		
+Inventory.Item.WPN_RFL16_BRL_03	WPN_RFL16_BRL_03	G36 Barrel C	ItemDetailsData		
+Inventory.Item.WPN_RFL16_HGD_01	WPN_RFL16_HGD_01	G36 Handguard A	ItemDetailsData		
+Inventory.Item.WPN_RFL16_HGD_02	WPN_RFL16_HGD_02	G36 Handguard B	ItemDetailsData		
+Inventory.Item.WPN_RFL16_HGD_03	WPN_RFL16_HGD_03	G36 Handguard C	ItemDetailsData		
+Inventory.Item.WPN_RFL16_HGD_04	WPN_RFL16_HGD_04	G36 Handguard D	ItemDetailsData		
+Inventory.Item.WPN_RFL16_HGD_05	WPN_RFL16_HGD_05	G36 Handguard E	ItemDetailsData		
+Inventory.Item.WPN_RFL16_MAG_556_01	WPN_RFL16_MAG_556_01	G36 Magazine A	ItemDetailsData		
+Inventory.Item.WPN_RFL16_MAG_556_02	WPN_RFL16_MAG_556_02	G36 Magazine B	ItemDetailsData		
+Inventory.Item.WPN_RFL16_STK_01	WPN_RFL16_STK_01	G36 Stock A	ItemDetailsData		
+Inventory.Item.WPN_RFL16_STK_02	WPN_RFL16_STK_02	G36 Stock B	ItemDetailsData		
+Inventory.Item.WPN_RFL16_UPP_01	WPN_RFL16_UPP_01	G36 Receiver A	ItemDetailsData		
+Inventory.Item.WPN_RFL16_UPP_02	WPN_RFL16_UPP_02	G36 Receiver B	ItemDetailsData		
+Inventory.Item.WPN_RFL16_UPP_03	WPN_RFL16_UPP_03	G36 Receiver C	ItemDetailsData		
+Inventory.Item.WPN_RFL16_UPP_04	WPN_RFL16_UPP_04	G36 Receiver D	ItemDetailsData		
+Inventory.Item.WPN_RFL19_HGD_01	WPN_RFL19_HGD_01	NSN Handguard D	ItemDetailsData		
+Inventory.Item.WPN_RFL19_PGR_01	WPN_RFL19_PGR_01	NSN Grip D	ItemDetailsData		
+Inventory.Item.WPN_RFL19_STK_01	WPN_RFL19_STK_01	NSN Stock D	ItemDetailsData		
+Inventory.Item.WPN_RFL20_ATT_MAG	WPN_RFL20_ATT_MAG	SVD Mag B	ItemDetailsData		
+Inventory.Item.WPN_RFL20_BRL_01	WPN_RFL20_BRL_01	SVD Barrel A	ItemDetailsData		
+Inventory.Item.WPN_RFL20_BRL_02	WPN_RFL20_BRL_02	SVD Barrel B	ItemDetailsData		
+Inventory.Item.WPN_RFL20_BRL_03	WPN_RFL20_BRL_03	SVD Barrel C	ItemDetailsData		
+Inventory.Item.WPN_RFL20_BRL_04	WPN_RFL20_BRL_04	SVD Barrel D	ItemDetailsData		
+Inventory.Item.WPN_RFL20_CHG_01	WPN_RFL20_CHG_01	SVD Charging Handle A	ItemDetailsData		
+Inventory.Item.WPN_RFL20_CHG_02	WPN_RFL20_CHG_02	SVD Charging Handle B	ItemDetailsData		
+Inventory.Item.WPN_RFL20_MAG_54R_01	WPN_RFL20_MAG_54R_01	SVD Mag A	ItemDetailsData		
+Inventory.Item.WPN_RFL20_STK_01	WPN_RFL20_STK_01	SVD Stock A	ItemDetailsData		
+Inventory.Item.WPN_RFL20_STK_02	WPN_RFL20_STK_02	SVD Stock B	ItemDetailsData		
+Inventory.Item.WPN_RFL20_STK_03	WPN_RFL20_STK_03	SVD Stock C	ItemDetailsData		
+Inventory.Item.WPN_RFL20_UPP_01	WPN_RFL20_UPP_01	SVD Upper Assmbly A	ItemDetailsData		
+Inventory.Item.WPN_RFL20_UPP_02	WPN_RFL20_UPP_02	SVD Upper Assmbly B	ItemDetailsData		
+Inventory.Item.WPN_RFL20_UPP_03	WPN_RFL20_UPP_03	SVD Upper Assmbly C	ItemDetailsData		
+Inventory.Item.WPN_RFL20_UPP_04	WPN_RFL20_UPP_04	SVD Upper Assmbly D	ItemDetailsData		
+Inventory.Item.WPN_RFL20_UPP_05	WPN_RFL20_UPP_05	SVD Upper Assmbly E	ItemDetailsData		
+Inventory.Item.WPN_RFL20_UPP_06	WPN_RFL20_UPP_06	SVD Upper Assmbly F	ItemDetailsData		
+Inventory.Item.WPN_RFL20_UPP_07	WPN_RFL20_UPP_07	SVD Upper Assmbly G	ItemDetailsData		
+Inventory.Item.WPN_RFL23_BRL_01	WPN_RFL23_BRL_01	M16 Barrel A	ItemDetailsData		
+Inventory.Item.WPN_RFL23_BRL_02	WPN_RFL23_BRL_02	M16 Barrel B	ItemDetailsData		
+Inventory.Item.WPN_RFL23_BRL_03	WPN_RFL23_BRL_03	M16 Barrel C	ItemDetailsData		
+Inventory.Item.WPN_RFL23_GAS_01	WPN_RFL23_GAS_01	M16 Gas Tube A	ItemDetailsData		
+Inventory.Item.WPN_RFL23_GAS_02	WPN_RFL23_GAS_02	M16 Gas Tube B	ItemDetailsData		
+Inventory.Item.WPN_RFL23_HGD_01	WPN_RFL23_HGD_01	M16 Handguard A	ItemDetailsData		
+Inventory.Item.WPN_RFL23_HGD_02	WPN_RFL23_HGD_02	M16 Handguard B	ItemDetailsData		
+Inventory.Item.WPN_RFL23_HGD_03	WPN_RFL23_HGD_03	M16 Handguard C	ItemDetailsData		
+Inventory.Item.WPN_RFL23_HGD_04	WPN_RFL23_HGD_04	M16 Handguard D	ItemDetailsData		
+Inventory.Item.WPN_RFL23_HGD_05	WPN_RFL23_HGD_05	M16 Handguard E	ItemDetailsData		
+Inventory.Item.WPN_RFL23_HGD_06	WPN_RFL23_HGD_06	M16 Handguard F	ItemDetailsData		
+Inventory.Item.WPN_RFL23_HGD_07	WPN_RFL23_HGD_07	M16 Handguard G	ItemDetailsData		
+Inventory.Item.WPN_RFL23_HGD_08	WPN_RFL23_HGD_08	M16 Handguard H	ItemDetailsData		
+Inventory.Item.WPN_RFL23_MAG_556_01	WPN_RFL23_MAG_556_01	M16 Magazine A	ItemDetailsData		
+Inventory.Item.WPN_RFL23_MAG_556_02	WPN_RFL23_MAG_556_02	M16 Magazine B	ItemDetailsData		
+Inventory.Item.WPN_RFL23_STK_01	WPN_RFL23_STK_01	M16 Stock A	ItemDetailsData		
+Inventory.Item.WPN_RFL23_STK_02	WPN_RFL23_STK_02	M16 Stock B	ItemDetailsData		
+Inventory.Item.WPN_RFL23_STK_03	WPN_RFL23_STK_03	M16 Stock C	ItemDetailsData		
+Inventory.Item.WPN_RFL23_UPP_01	WPN_RFL23_UPP_01	M16 Upper Assmbly A	ItemDetailsData		
+Inventory.Item.WPN_RFL23_UPP_02	WPN_RFL23_UPP_02	M16 Upper Assmbly B	ItemDetailsData		
+Inventory.Item.WPN_RFL23_UPP_03	WPN_RFL23_UPP_03	M16 Upper Assmbly C	ItemDetailsData		
+Inventory.Item.WPN_RFL29_FRS_01	WPN_RFL29_FRS_01	VKS Front Sight	ItemDetailsData		
+Inventory.Item.WPN_RFL29_HGD_01	WPN_RFL29_HGD_01	VKS Handguard A	ItemDetailsData		
+Inventory.Item.WPN_RFL29_HGD_01_1	WPN_RFL29_HGD_01_1	VKS Handguard B	ItemDetailsData		
+Inventory.Item.WPN_RFL29_RES_01	WPN_RFL29_RES_01	VKS Rear Sight	ItemDetailsData		
+Inventory.Item.WPN_RFL30_HGD_01	WPN_RFL30_HGD_01	TKB-0146 Handguard A	ItemDetailsData		
+Inventory.Item.WPN_RFL30_HGD_02	WPN_RFL30_HGD_02	TKB-0146 Handguard B	ItemDetailsData		
+Inventory.Item.WPN_SHG01_BRL_01	WPN_SHG01_BRL_01	S12 Shotgun Barrel A	ItemDetailsData		
+Inventory.Item.WPN_SHG01_BRL_02	WPN_SHG01_BRL_02	S12 Shotgun Barrel B	ItemDetailsData		
+Inventory.Item.WPN_SHG01_BRL_03	WPN_SHG01_BRL_03	S12 Shotgun Barrel C	ItemDetailsData		
+Inventory.Item.WPN_SHG01_HGD01_HAX	WPN_SHG01_HGD01_HAX	SPAs-12 Handguard A	ItemDetailsData		
+Inventory.Item.WPN_SHG01_MAG_01	WPN_SHG01_MAG_01	S12 Shotgun Magazine A	ItemDetailsData		
+Inventory.Item.WPN_SHG01_MAG_02	WPN_SHG01_MAG_02	S12 Shotgun Magazine B	ItemDetailsData		
+Inventory.Item.WPN_SHG01_MAG_03	WPN_SHG01_MAG_03	S12 Shotgun Magazine C	ItemDetailsData		
+Inventory.Item.WPN_SHG01_STK_01_STKEND_1	WPN_SHG01_STK_01_STKEND_1	S12 Shotgun Stock	ItemDetailsData		
+Inventory.Item.WPN_SHG02_BRL_01	WPN_SHG02_BRL_01	SURPLUS Shotgun Barrel A	ItemDetailsData		
+Inventory.Item.WPN_SHG02_BRL_02	WPN_SHG02_BRL_02	SURPLUS Shotgun Barrel B	ItemDetailsData		
+Inventory.Item.WPN_SHG02_BRL_03	WPN_SHG02_BRL_03	SURPLUS Shotgun Barrel C	ItemDetailsData		
+Inventory.Item.WPN_SHG02_HGD_01	WPN_SHG02_HGD_01	SURPLUS Shotgun Handguard A	ItemDetailsData		
+Inventory.Item.WPN_SHG02_HGD_01_1	WPN_SHG02_HGD_01_1	SURPLUS Shotgun Handguard D	ItemDetailsData		
+Inventory.Item.WPN_SHG02_HGD_02	WPN_SHG02_HGD_02	SURPLUS Shotgun Handguard B	ItemDetailsData		
+Inventory.Item.WPN_SHG02_HGD_03	WPN_SHG02_HGD_03	SURPLUS Shotgun Handguard C	ItemDetailsData		
+Inventory.Item.WPN_SHG02_MAG_01	WPN_SHG02_MAG_01	SURPLUS Shotgun Magazine A	ItemDetailsData		
+Inventory.Item.WPN_SHG02_MAG_02	WPN_SHG02_MAG_02	SURPLUS Shotgun Magazine B	ItemDetailsData		
+Inventory.Item.WPN_SHG02_MAG_03	WPN_SHG02_MAG_03	SURPLUS Shotgun Magazine C	ItemDetailsData		
+Inventory.Item.WPN_SHG02_STK_01	WPN_SHG02_STK_01	SURPLUS Shotgun Stock A	ItemDetailsData		
+Inventory.Item.WPN_SHG02_STK_02	WPN_SHG02_STK_02	SURPLUS Shotgun Stock B	ItemDetailsData		
+Inventory.Item.WPN_SHG02_STK_03	WPN_SHG02_STK_03	SURPLUS Shotgun Stock C	ItemDetailsData		
+Inventory.Item.WPN_SHG02_STK_04	WPN_SHG02_STK_04	WPN_SHG02_STK_04	ItemDetailsData		
+Inventory.Item.WPN_SHG02_STK_05	WPN_SHG02_STK_05	SURPLUS Shotgun Stock E	ItemDetailsData		
+Inventory.Item.WPN_SHG02_STK_06	WPN_SHG02_STK_06	SURPLUS Shotgun Stock F	ItemDetailsData		
+Inventory.Item.WPN_SHG02_UPP_01	WPN_SHG02_UPP_01	SURPLUS Shotgun Upper Assembly A	ItemDetailsData		
+Inventory.Item.WPN_SHG02_UPP_01_1	WPN_SHG02_UPP_01_1	SURPLUS Shotgun Upper Assembly D	ItemDetailsData		
+Inventory.Item.WPN_SHG02_UPP_02	WPN_SHG02_UPP_02	SURPLUS Shotgun Upper Assembly B	ItemDetailsData		
+Inventory.Item.WPN_SHG02_UPP_03	WPN_SHG02_UPP_03	SURPLUS Shotgun Upper Assembly C	ItemDetailsData		
+Inventory.Item.WPN_SHG03_BRL_01	WPN_SHG03_BRL_01	USAS-12 Shotgun Barrel A	ItemDetailsData		
+Inventory.Item.WPN_SHG03_BRL_02	WPN_SHG03_BRL_02	USAS-12 Shotgun Barrel B	ItemDetailsData		
+Inventory.Item.WPN_SHG03_BRL_03	WPN_SHG03_BRL_03	USAS-12 Shotgun Barrel C	ItemDetailsData		
+Inventory.Item.WPN_SHG03_FRS_01	WPN_SHG03_FRS_01	USAS-12 Shotgun Front Sight	ItemDetailsData		
+Inventory.Item.WPN_SHG03_HGD_01_1	WPN_SHG03_HGD_01_1	USAS-12 Shotgun Handguard B	ItemDetailsData		
+Inventory.Item.WPN_SHG03_HGD_01_HAX	WPN_SHG03_HGD_01_HAX	USAS-12 Shotgun Handguard A	ItemDetailsData		
+Inventory.Item.WPN_SHG03_MAG_12G_01	WPN_SHG03_MAG_12G_01	USAS-12 Shotgun Magazine A	ItemDetailsData		
+Inventory.Item.WPN_SHG03_MAG_12G_02	WPN_SHG03_MAG_12G_02	USAS-12 Shotgun Magazine B	ItemDetailsData		
+Inventory.Item.WPN_SHG03_MAG_12G_03	WPN_SHG03_MAG_12G_03	USAS-12 Shotgun Magazine C	ItemDetailsData		
+Inventory.Item.WPN_SHG03_PGR_01	WPN_SHG03_PGR_01	NSN Grip E	ItemDetailsData		
+Inventory.Item.WPN_SHG04_HGD_01	WPN_SHG04_HGD_01	Vepr-12 Shotgun Handguard A	ItemDetailsData		
+Inventory.Item.WPN_SHG04_HGD_02	WPN_SHG04_HGD_02	Vepr-12 Shotgun Handguard B	ItemDetailsData		
+Inventory.Item.WPN_SHG04_HGD_03	WPN_SHG04_HGD_03	Vepr-12 Shotgun Handguard C	ItemDetailsData		
+Inventory.Item.WPN_SHG04_MAG_12G_01	WPN_SHG04_MAG_12G_01	Vepr-12 Shotgun Magazine A	ItemDetailsData		
+Inventory.Item.WPN_SHG04_MAG_12G_02	WPN_SHG04_MAG_12G_02	Vepr-12 Shotgun Magazine B	ItemDetailsData		
+Inventory.Item.WPN_SHG05_HGD_01_1	WPN_SHG05_HGD_01_1	AA-12 Handguard	ItemDetailsData		
+Inventory.Item.WPN_SHG05_MAG_12G_01	WPN_SHG05_MAG_12G_01	AA12 Shotgun Magazine A	ItemDetailsData		
+Inventory.Item.WPN_SHG05_MAG_12G_02	WPN_SHG05_MAG_12G_02	AA12 Shotgun Magazine B	ItemDetailsData		
+Inventory.Item.WPN_SHG06_BRL_01	WPN_SHG06_BRL_01	HK CAWS Barrel A	ItemDetailsData		
+Inventory.Item.WPN_SHG06_BRL_02	WPN_SHG06_BRL_02	HK CAWS Barrel B	ItemDetailsData		
+Inventory.Item.WPN_SHG06_MAG_12G_01	WPN_SHG06_MAG_12G_01	HK CAWS Magazine A	ItemDetailsData		
+Inventory.Item.WPN_SHG06_MAG_12G_02	WPN_SHG06_MAG_12G_02	HK CAWS Magazine B	ItemDetailsData		
+Inventory.Item.WPN_SHG06_UPP_01	WPN_SHG06_UPP_01	HK CAWS Upper Assembly A	ItemDetailsData		
+Inventory.Item.WPN_SHG06_UPP_02	WPN_SHG06_UPP_02	HK CAWS Upper Assembly B	ItemDetailsData		
+Inventory.Item.WPN_SMG01_HGD_01	WPN_SMG01_HGD_01	Kriss Vector Handguard A	ItemDetailsData		
+Inventory.Item.WPN_SMG01_HGD_01_1	WPN_SMG01_HGD_01_1	Kriss Vector Handguard B	ItemDetailsData		
+Inventory.Item.WPN_SMG01_HGD_02	WPN_SMG01_HGD_02	Kriss Vector Handguard C	ItemDetailsData		
+Inventory.Item.WPN_SMG01_MAG_01	WPN_SMG01_MAG_01	Kriss Vector Magazine A	ItemDetailsData		
+Inventory.Item.WPN_SMG01_MAG_02	WPN_SMG01_MAG_02	Kriss Vector Magazine B	ItemDetailsData		
+Inventory.Item.WPN_SMG01_STK_01	WPN_SMG01_STK_01	Kriss Vector Stock A	ItemDetailsData		
+Inventory.Item.WPN_SMG01_STK_02	WPN_SMG01_STK_02	Kriss Vector Stock B	ItemDetailsData		
+Inventory.Item.WPN_SMG03_BRL_01	WPN_SMG03_BRL_01	PM-9 Barrel A	ItemDetailsData		
+Inventory.Item.WPN_SMG03_BRL_02	WPN_SMG03_BRL_02	PM-9 Barrel B	ItemDetailsData		
+Inventory.Item.WPN_SMG03_BRL_03	WPN_SMG03_BRL_03	PM-9 Barrel C	ItemDetailsData		
+Inventory.Item.WPN_SMG03_MAG_919_01	WPN_SMG03_MAG_919_01	PM-9 Magazine A	ItemDetailsData		
+Inventory.Item.WPN_SMG03_MAG_919_02	WPN_SMG03_MAG_919_02	PM-9 Magazine B	ItemDetailsData		
+Inventory.Item.WPN_SMG03_STK_01	WPN_SMG03_STK_01	PM-9 Stock A	ItemDetailsData		
+Inventory.Item.WPN_SMG03_STK_02	WPN_SMG03_STK_02	PM-9 Stock B	ItemDetailsData		
+Inventory.Item.WPN_SMG03_STK_02_STKEND_1	WPN_SMG03_STK_02_STKEND_1	PM-9 Stock End A	ItemDetailsData		
+Inventory.Item.WPN_SMG03_STK_02_STKEND_2	WPN_SMG03_STK_02_STKEND_2	PM-9 Stock End B	ItemDetailsData		
+Inventory.Item.WPN_SMG03_STK_02_STKEND_3	WPN_SMG03_STK_02_STKEND_3	PM-9 Stock End C	ItemDetailsData		
+Inventory.Item.WPN_SMG03_STK_02_STKEND_4	WPN_SMG03_STK_02_STKEND_4	PM-9 Stock End D	ItemDetailsData		
+Inventory.Item.WPN_SMG03_UPP_01	WPN_SMG03_UPP_01	PM-9 Upper Assembly A	ItemDetailsData		
+Inventory.Item.WPN_SMG03_UPP_01_1	WPN_SMG03_UPP_01_1	PM-9 Upper Assembly B	ItemDetailsData		
+Inventory.Item.WPN_SMG04_HGD_01_1	WPN_SMG04_HGD_01_1	Walther MPL Handguard	ItemDetailsData		
+Inventory.Item.WPN_SMG05_BRL_01	WPN_SMG05_BRL_01	APC9 Pro Barrel A	ItemDetailsData		
+Inventory.Item.WPN_SMG05_BRL_02	WPN_SMG05_BRL_02	APC9 Pro Barrel B	ItemDetailsData		
+Inventory.Item.WPN_SMG05_STK_01	WPN_SMG05_STK_01	APC9 Pro Stock A	ItemDetailsData		
+Inventory.Item.WPN_SMG07_BRL_01	WPN_SMG07_BRL_01	PP-19 Vityaz Barrel A	ItemDetailsData		
+Inventory.Item.WPN_SMG07_BRL_02	WPN_SMG07_BRL_02	PP-19 Vityaz Barrel B	ItemDetailsData		
+Inventory.Item.WPN_SMG07_CHG_01	WPN_SMG07_CHG_01	PP-19 Vityaz Charging Handle A	ItemDetailsData		
+Inventory.Item.WPN_SMG07_CHG_02	WPN_SMG07_CHG_02	PP-19 Vityaz Charging Handle B	ItemDetailsData		
+Inventory.Item.WPN_SMG07_HGD_01	WPN_SMG07_HGD_01	PP-19 Vityaz Handguard A	ItemDetailsData		
+Inventory.Item.WPN_SMG07_HGD_02	WPN_SMG07_HGD_02	PP-19 Vityaz Handguard B	ItemDetailsData		
+Inventory.Item.WPN_SMG07_MAG_919_01	WPN_SMG07_MAG_919_01	PP-19 Vityaz Magazine A	ItemDetailsData		
+Inventory.Item.WPN_SMG07_MAG_919_02	WPN_SMG07_MAG_919_02	PP-19 Vityaz Magazine B	ItemDetailsData		
+Inventory.Item.WPN_SMG07_PGR_01	WPN_SMG07_PGR_01	PP-19 Vityaz Grip A	ItemDetailsData		
+Inventory.Item.WPN_SMG07_PGR_02	WPN_SMG07_PGR_02	PP-19 Vityaz Grip B	ItemDetailsData		
+Inventory.Item.WPN_SMG07_STK_01	WPN_SMG07_STK_01	PP-19 Vityaz Stock A	ItemDetailsData		
+Inventory.Item.WPN_SMG07_STK_02	WPN_SMG07_STK_02	PP-19 Vityaz Stock B	ItemDetailsData		
+Inventory.Item.WPN_SMG07_TRG_01	WPN_SMG07_TRG_01	PP-19 Vityaz Trigger A	ItemDetailsData		
+Inventory.Item.WPN_SMG07_TRG_02	WPN_SMG07_TRG_02	PP-19 Vityaz Trigger B	ItemDetailsData		
+Inventory.Item.WPN_SMG07_UPP_01	WPN_SMG07_UPP_01	PP-19 Vityaz Upper Assembly A	ItemDetailsData		
+Inventory.Item.WPN_SMG07_UPP_02	WPN_SMG07_UPP_02	PP-19 Vityaz Upper Assembly B	ItemDetailsData		
+Inventory.Item.WPN_SMG08_HGD_01_1	WPN_SMG08_HGD_01_1	Spectre M4 Handguard	ItemDetailsData		
+Inventory.Item.joint1__WPN_SHG01_HGD01_1	joint1__WPN_SHG01_HGD01_1	SPAs-12 Handguard B	ItemDetailsData		
+Inventory.Item.recipe.ingredient.fixedweapons.01	recipe.ingredient.fixedweapons.01	Pneumatic Actuator Component	ItemDetailsData		
+Inventory.Item.recipe.ingredient.fixedweapons.02	recipe.ingredient.fixedweapons.02	Heavy Joint Assembly	ItemDetailsData	yes	
+Inventory.Item.recipe.ingredient.fixedweapons.03	recipe.ingredient.fixedweapons.03	Heavy Duty Gimble Component	ItemDetailsData		
+Inventory.Item.recipe.ingredient.fixedweapons.04	recipe.ingredient.fixedweapons.04	Weapon Attachment Lock Component	ItemDetailsData		
+Inventory.Item.recipe.ingredient.fixedweapons.05	recipe.ingredient.fixedweapons.05	Railgun Magazine	ItemDetailsData	yes	
+Inventory.Item.recipe.ingredient.fixedweapons.06	recipe.ingredient.fixedweapons.06	Ammo Feed Component	ItemDetailsData	yes	
+Inventory.Item.recipe.ingredient.fixedweapons.07	recipe.ingredient.fixedweapons.07	High Durability Rail Component	ItemDetailsData	yes	
+Inventory.Item.recipe.ingredient.fixedweapons.08	recipe.ingredient.fixedweapons.08	Railgun Assembly Component	ItemDetailsData	yes	
+Inventory.Item.recipe.ingredient.fixedweapons.09	recipe.ingredient.fixedweapons.09	Universal Aiming Interface Component	ItemDetailsData	yes	
+Inventory.Item.recipe.ingredient.fixedweapons.10	recipe.ingredient.fixedweapons.10	Railgun Body Component	ItemDetailsData	yes	
+Inventory.Item.recipe.ingredient.fixedweapons.11	recipe.ingredient.fixedweapons.11	Railgun Power Bank	ItemDetailsData	yes	
+Inventory.Item.recipe.ingredient.fixedweapons.12	recipe.ingredient.fixedweapons.12	CASE Component	ItemDetailsData	yes	
+Inventory.Item.recipe.ingredient.fixedweapons.13	recipe.ingredient.fixedweapons.13	Railgun Breech Component	ItemDetailsData	yes	
+Inventory.Item.recipe.ingredient.fixedweapons.13.dud	recipe.ingredient.fixedweapons.13.dud	Railgun Breech Component	ItemDetailsData		
+Inventory.Item.recipe.ingredient.fixedweapons.14	recipe.ingredient.fixedweapons.14	Railgun Cooling Component	ItemDetailsData	yes	
+Inventory.Weapon.GRL01					yes
+Inventory.Weapon.GRL02					yes
+Inventory.Weapon.HMG01					yes
+Inventory.Weapon.HRF01					yes
+Inventory.Weapon.HRF02					yes
+Inventory.Weapon.HRF03					yes
+Inventory.Weapon.HRF04					yes
+Inventory.Weapon.HRF05					yes
+Inventory.Weapon.LMG01					yes
+Inventory.Weapon.LMG02					yes
+Inventory.Weapon.LMG03					yes
+Inventory.Weapon.LMG04					yes
+Inventory.Weapon.PST01					yes
+Inventory.Weapon.PST02					yes
+Inventory.Weapon.PST03					yes
+Inventory.Weapon.PST04					yes
+Inventory.Weapon.PST05					yes
+Inventory.Weapon.PST06					yes
+Inventory.Weapon.PST07					yes
+Inventory.Weapon.PST10					yes
+Inventory.Weapon.RFL01					yes
+Inventory.Weapon.RFL01B					yes
+Inventory.Weapon.RFL12					yes
+Inventory.Weapon.RFL15					yes
+Inventory.Weapon.RFL16					yes
+Inventory.Weapon.RFL19					yes
+Inventory.Weapon.RFL20					yes
+Inventory.Weapon.RFL23					yes
+Inventory.Weapon.RFL29					yes
+Inventory.Weapon.RFL30					yes
+Inventory.Weapon.SHG01					yes
+Inventory.Weapon.SHG03					yes
+Inventory.Weapon.SHG04					yes
+Inventory.Weapon.SHG05					yes
+Inventory.Weapon.SMG01					yes
+Inventory.Weapon.SMG02					yes
+Inventory.Weapon.SMG03					yes
+Inventory.Weapon.SMG04					yes
+Inventory.Weapon.SMG05					yes
+Inventory.Weapon.SMG06					yes
+Inventory.Weapon.SMG07					yes
+Inventory.Weapon.SMG08					yes
