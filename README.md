@@ -29,6 +29,8 @@ Close the game, install UE4SS, then extract the mod ZIP into `The Forever Winter
 
 Finish and collect your custom orders before updating or uninstalling. Keep `MoreCraftingRecipes.ini` and the `manuals.*` files when replacing the mod folder. To uninstall, remove `MoreCraftingRecipes` from `ue4ss\Mods`.
 
+**Upgrading from 1.0?** Delete the old `ue4ss\Mods\MoreCraftingRecipies` folder before installing the update. The new folder is `ue4ss\Mods\MoreCraftingRecipes`.
+
 ## Recipe reference
 
 † Skipped if the item already has a stock recipe.
