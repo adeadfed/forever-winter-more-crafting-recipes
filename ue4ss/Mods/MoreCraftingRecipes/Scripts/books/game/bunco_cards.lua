@@ -51,7 +51,7 @@ local function set_card_price(card, price)
     if text ~= current then cost:SetText(FText(text)) end
 end
 
-local function display_row(data, dossier, tier, manual)
+function M.display_row(data, dossier, tier, manual)
     local id = "MCR_BuncoManual_" .. tier
     local row = data:FindRow(id)
     if not row then
@@ -92,7 +92,7 @@ function M.create_shelf(vendor, pc, prices)
             local manual = manuals.tiers[id]
             local card = create_user_widget(M.card_path, pc)
             local output = {}
-            local tooltip_row = display_row(data, dossier, id, manual)
+            local tooltip_row = M.display_row(data, dossier, id, manual)
             card:InitialiseItem(saved, { X = size, Y = size }, false, output)
             assert(output.Initialized ~= false, "Dossier artwork did not initialize")
             -- Use a display-only row for the tooltip.

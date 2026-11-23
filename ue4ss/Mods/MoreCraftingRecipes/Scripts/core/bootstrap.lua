@@ -64,6 +64,12 @@ function M.start(mod_folder, on_ready)
         end
     end
     refresh = runtime.start(config, after_install, visibility_policy)
+    if manual_progress and (settings.raid_drops or next(manual_progress.raid_pending)) then
+        local ok, err = pcall(function()
+            require("books/raid/runtime").start(manual_progress, settings.raid_drops and settings.drop_rates, refresh, log)
+        end)
+        if not ok then log("Could not start raid manual drops: " .. tostring(err)) end
+    end
 end
 
 return M

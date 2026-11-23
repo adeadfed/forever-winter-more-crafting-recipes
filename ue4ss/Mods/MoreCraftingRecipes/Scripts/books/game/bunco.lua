@@ -58,15 +58,25 @@ function M.start(folder, progress, log, refresh)
             local old = live("WBP_PopUp_C", pending.popup)
             if objects.valid(old) and old:IsInViewport() then return end
         end
-        local popup = ui.popup(pc)
         local manual = manuals.tiers[tier]
+        local learned, _, receipts = store.learned(folder)
+        if learned[tier] then
+            progress.learn(tier)
+            update_cards(vendor)
+            refresh()
+            return
+        end
+        local popup = ui.popup(pc)
+        local recover = not not receipts[tier]
         local prompt = {
             popup = popup:GetAddress(),
             vendor = vendor:GetAddress(),
             tier = tier,
             price = price,
             title = manual.title,
-            detail = "Buy for " .. ui.format_price(price) .. " CR?",
+            recover = recover,
+            detail = recover and "Recover the interrupted purchase? No additional charge."
+                or "Buy for " .. ui.format_price(price) .. " CR?",
         }
         pending = prompt
         popup:AddToViewport(201)
@@ -97,7 +107,7 @@ function M.start(folder, progress, log, refresh)
         if progress.prices()[prompt.tier] ~= prompt.price then
             reason = "This offer changed. Select the manual again."
         elseif credits then
-            local ok, result, err = pcall(acquire, prompt.tier, prompt.price, credits)
+            local ok, result, err = pcall(acquire, prompt.tier, prompt.price, credits, prompt.recover)
             success, reason = ok and result, ok and err or "Purchase unavailable. Check the mod log."
             if not ok then log("Manual purchase failed: " .. tostring(result)) end
         else

@@ -1,7 +1,7 @@
-# Archived raid manual research
+# Raid manual research
 
 These standalone Tunnel A tests used UE4SS 4.0.0 Experimental (`b2d936b9`).
-The current manual flow uses Bunco.
+Bunco purchases and optional local raid pickups share the same manual flags.
 
 ## Spawning and pickup
 
@@ -39,6 +39,51 @@ checkpoint resume followed by final extraction unlocked the recipes with clean
 item arrays. A separate restart experiment keyed recovery to the map name,
 which can repeat across raids.
 
-The Take trace observed the native loot request and the UI completion callback.
-It did not establish a way to intercept Take for a local-only tile before
-dispatch. Co-op replication and guest extraction remain unverified.
+## Native Take and the local pickup test
+
+The solo Tunnel A trace showed an ordinary click on `W_LootItem_C.LootButton`.
+The tile's `LootItem` multicast delegate was bound to `W_LootUI_C:LootItem`.
+That path called `SInventoryContainer:RequestLootFromContainer` with the slot
+index. The stock **Loot All** button has its own callback on the panel.
+`W_LootUI_C.LootItems` is the visual WrapBox. `LootWidgets` is the separate
+array of stock tile references.
+
+The solo pilot appended a private stock loot tile to the WrapBox.
+The integrated mod routes its native button locally. A
+vendor card draws the Dossier artwork and manual title. The card ignores
+pointer input. The original loot button sits above the artwork and forwards
+its click to a private widget. The integrated mod uses this input path and
+saves each claimed manual as pending when Take succeeds.
+
+In the solo mouse test the press and claim counters both read zero stock
+requests. The player saw the native pickup notice and the count stayed at
+0/15. In the same session the next three ordinary pickups logged stock
+requests for slot 0 on two cyborg corpses. The game can reject an empty
+crate before the grid opens. Reopening after taking all ordinary loot
+still needs a live test.
+
+For a repeatable test, enable raid drops and set the sector chance to 100
+on a disposable installation. Use two eligible crates with different manual
+pools. Check their normal loot and Loot All. Take both manuals, transfer or
+checkpoint, and then extract to the Innards. Repeat with a restart, death, and abandonment.
+Check the pending section after each Take and the learned flags after final extraction. Test
+keyboard and controller separately.
+
+The co-op acceptance check uses a modded guest with an unmodded host. Compare
+both players' crate contents before and after the guest's manual Take. Guest
+extraction requires `ClientOnPlayerExtracted(Controller)` for the local player,
+the local save component's final `ExtractLoot(false, false, …)` in that world,
+and arrival in the Innards. The solo path also accepts `SetExtracted` from
+the local standalone game instance. The guest signal sequence still needs a live test.
+
+The integrated solo run recorded Munitions A, IFF, Workshop A, and Provisions
+in one raid. The game crashed while the player was walking toward extraction.
+All four flags were still false. Matching UE4SS symbols place both this crash
+and an earlier one inside an object-list search from a native pre-hook. The
+report does not identify the Lua mod. The Manufacturing hook now filters its
+table argument directly, and the raid callbacks reuse objects resolved at setup.
+
+On the next solo run, final extraction wrote Workshop A, Electronics A,
+Munitions A, Rig Storage A, and Provisions together. IFF, acquired only in
+the interrupted run, stayed locked. This second run used the build already
+loaded before the callback changes were installed.

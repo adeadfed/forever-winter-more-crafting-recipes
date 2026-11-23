@@ -1,1 +1,1 @@
-Adds crafting and disassembly recipes that put spare loot to use and reduce farming in The Forever Winter.
+New crafting and disassembly recipes give little-used loot more purpose and cut down on farming for specific drops.

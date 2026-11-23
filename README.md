@@ -1,50 +1,33 @@
 # More Crafting Recipes
 
-Adds crafting and disassembly recipes to the Innards workshop. Use spare loot to make tools, electronics, rig boxes, and supplies with less farming for specific drops.
+This mod gives little-used loot more purpose in The Forever Winter. It adds up to 150 crafting and disassembly recipes to the Innards workshop, so you can use what you already have and spend less time farming for a specific drop.
 
-## Requirements
+## Getting the recipes
 
-**The Forever Winter for Windows (64-bit)** and **RE-UE4SS 4.0.0 Experimental**, tested with commit `b2d936b9`. [UE4SS downloads](https://github.com/UE4SS-RE/RE-UE4SS/releases) · [Installation guide](https://docs.ue4ss.com/dev/installation-guide.html)
+By default, you learn recipes from manuals. Bunco sells them under **Consumables**. Each one unlocks a group of recipes, and you can buy them in any order.
 
-## Install
+If you turn on raid drops, you can also find manuals in crates. A manual you pick up unlocks its recipes when you extract to the Innards. If you die, you lose the manuals from that run.
 
-1. Close the game and install UE4SS.
-2. Extract the release ZIP into `The Forever Winter\Windows\ForeverWinter\Binaries\Win64` so the `ue4ss` folders merge.
-3. Verify that `Win64\ue4ss\Mods\MoreCraftingRecipes` contains `enabled.txt`, `MoreCraftingRecipes.ini`, and `Scripts\main.lua`.
-4. Launch the game and visit Bunco or Manufacturing in the Innards.
+You can also turn manuals off and have all the new recipes from the start. The usual facility and blueprint requirements still apply.
 
-Collect pending custom crafts before updating or uninstalling. To update, back
-up `MoreCraftingRecipes.ini` and `manuals.ini`, replace the mod folder, and copy
-back your settings and progress. To uninstall, close the game and remove
-`ue4ss\Mods\MoreCraftingRecipes`.
+## Settings
 
-## Settings and manuals
+Close the game before editing `ue4ss\Mods\MoreCraftingRecipes\MoreCraftingRecipes.ini`.
 
-Close the game before editing `MoreCraftingRecipes.ini`.
+| INI section | Setting |
+| --- | --- |
+| `[RecipeBooks]` | `Enabled = false` unlocks all custom recipes. `RaidDrops = true` adds manuals to crates. Raid drops are off by default. |
+| `[RecipeBookPrices]` | Price per manual, in whole credits without commas. Defaults range from 100,000 to 600,000 CR. |
+| `[RaidDropChances]` | Chance per eligible crate in each sector, from 0 to 100 percent. [Manuals and crate locations](docs/raid-manuals.md) |
+| `[Crafting]` | `Instant = true` by default for new stock and mod recipes. `false` leaves craft times to the game or another timing mod. Tested with NoTimeGating. |
 
-- `[Crafting] Instant` is enabled in the supplied INI and applies to new stock and custom Manufacturing jobs. Set it to `false` to use the game's craft times.
-- Recipe manuals are optional and enabled by default. Buy them in **Bunco → Consumables** to unlock recipe groups, in any tier order. Set `Enabled = false` under `[RecipeBooks]` to skip manual requirements.
-- `[RecipeBookPrices]` controls manual prices. Enter whole credit amounts without commas. Tier prices start at 100,000 CR and rise to 600,000 CR. The IFF and Provisions manuals cost 100,000 CR each.
+## Installation
 
-Custom recipes keep the stock template's facility and blueprint requirements.
-Manual unlocks are saved in `manuals.ini` beside the settings file.
+Requires **The Forever Winter for Windows (64-bit)** and **RE-UE4SS 4.0.0 Experimental**. Tested with UE4SS commit `b2d936b9`. [UE4SS downloads](https://github.com/UE4SS-RE/RE-UE4SS/releases) · [Installation guide](https://docs.ue4ss.com/dev/installation-guide.html)
 
-## Where to find recipes
+Close the game, install UE4SS, then extract the mod ZIP into `The Forever Winter\Windows\ForeverWinter\Binaries\Win64`. The scripts belong in `Win64\ue4ss\Mods\MoreCraftingRecipes\Scripts`.
 
-- **Munitions → Disassembly**. Recover materials from standard and specialist ammunition.
-- **Workshop → Refinery**. Process materials and make thermite and explosive charges.
-- **Workshop → Tools & Kits**. Make and upgrade tools and repair kits.
-- **Workshop → Fabrication**. Build mechanical assemblies and industrial equipment.
-- **Workshop → Power & Lighting**. Make batteries, chargers, power cells, and lights.
-- **Workshop → Electronics & Comms**. Build computers, radios, and field electronics.
-- **Workshop → Disassembly**. Recover materials and components from spare equipment.
-- **Workshop → Rig Boxes**. Craft storage boxes and upgrade matching spare boxes.
-- **Workshop → U.I.D.**. Craft eligible Level 1 IFFs and downgrade chips within the same faction.
-- **Workshop → Provisions**. Blend alcohol and upgrade cigarettes.
-
-## Compatibility
-
-Tested alongside NoTimeGating. For another timing mod to control craft times, set `Instant = false`.
+Finish and collect your custom orders before updating or uninstalling. Keep `MoreCraftingRecipes.ini` and the `manuals.*` files when replacing the mod folder. To uninstall, remove `MoreCraftingRecipes` from `ue4ss\Mods`.
 
 ## Recipe reference
 

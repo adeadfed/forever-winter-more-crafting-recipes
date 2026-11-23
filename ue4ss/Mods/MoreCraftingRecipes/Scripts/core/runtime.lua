@@ -30,7 +30,7 @@ function M.start(config, on_ready, visibility_policy)
     local hooked, hook_error = pcall(RegisterHook, list_groups, function(_, table_param)
         if not table_param then return end
         local data = table_param:get()
-        if not data or data ~= installer.find_table("groups") then return end
+        if not installer.is_group_table(data) then return end
         local address = data:GetAddress()
         if apply() and reported_group_table ~= address then
             reported_group_table = address

@@ -20,6 +20,11 @@ local function table_path(name)
     return DATA .. name .. "." .. name
 end
 
+function M.is_group_table(data)
+    if not data or not data:IsValid() or data:GetFName():ToString() ~= TABLES.groups then return false end
+    return data:GetFullName():match("^%S+ (.+)$") == table_path(TABLES.groups)
+end
+
 function M.find_table(kind)
     local object = StaticFindObject(table_path(TABLES[kind]))
     return object and object:IsValid() and object or nil
