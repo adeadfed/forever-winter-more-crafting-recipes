@@ -1,0 +1,230 @@
+[size=6][b]More Crafting Recipes[/b][/size]
+
+More Crafting Recipes adds up to [b]150 crafting and disassembly recipes[/b] to Manufacturing in the Innards, including rig box variants. Use spare loot to make tools, electronics, and supplies so you can spend less time farming for specific drops.
+
+[b]Recipe manuals[/b] let you unlock the kinds of crafting you use. Available for purchase in [b]Bunco → Consumables[/b].
+
+Manuals are [b]optional and enabled by default[/b]. In [b]MoreCraftingRecipes.ini[/b], set [b]Enabled = false[/b] under [b]RecipeBooks[/b] to make all custom recipes available right away. Set individual manual prices under [b]RecipeBookPrices[/b].
+
+[size=5][b]What changes in Manufacturing[/b][/size]
+
+[list]
+[*][b]Munitions → Disassembly[/b]. Recover materials from standard and specialist ammunition.
+[*][b]Workshop → Refinery[/b]. Process materials and make thermite and explosive charges.
+[*][b]Workshop → Tools & Kits[/b]. Make and upgrade tools and repair kits.
+[*][b]Workshop → Fabrication[/b]. Build mechanical assemblies and industrial equipment.
+[*][b]Workshop → Power & Lighting[/b]. Make batteries, chargers, power cells, and lights.
+[*][b]Workshop → Electronics & Comms[/b]. Build computers, radios, and field electronics.
+[*][b]Workshop → Disassembly[/b]. Recover materials and components from spare equipment.
+[*][b]Workshop → Rig Boxes[/b]. Craft storage boxes and upgrade matching spare boxes.
+[*][b]Workshop → U.I.D.[/b]. Craft eligible Level 1 IFFs and downgrade chips within the same faction.
+[*][b]Workshop → Provisions[/b]. Blend alcohol and upgrade cigarettes.
+[/list]
+
+[size=5][b]Requirements[/b][/size]
+
+[b]The Forever Winter for Windows (64-bit)[/b] and [b]RE-UE4SS 4.0.0 Experimental[/b], tested with commit [b]b2d936b9[/b]. [url=https://github.com/UE4SS-RE/RE-UE4SS/releases]UE4SS downloads[/url] · [url=https://docs.ue4ss.com/dev/installation-guide.html]Installation guide[/url]
+
+[size=5][b]Install[/b][/size]
+
+[list=1]
+[*]Close the game and install UE4SS.
+[*]Extract the release ZIP into [b]The Forever Winter\Windows\ForeverWinter\Binaries\Win64[/b] so the [b]ue4ss[/b] folders merge.
+[*]Verify that [b]Win64\ue4ss\Mods\MoreCraftingRecipes[/b] contains [b]enabled.txt[/b], [b]MoreCraftingRecipes.ini[/b], and [b]Scripts\main.lua[/b].
+[*]Launch the game and visit Bunco or Manufacturing in the Innards.
+[/list]
+
+[size=5][b]Settings and manuals[/b][/size]
+
+Close the game before editing [b]MoreCraftingRecipes.ini[/b].
+
+[list]
+[*][b]Instant[/b] under [b]Crafting[/b] is enabled in the supplied INI and applies to new stock and custom Manufacturing jobs. Set it to [b]false[/b] to use the game's craft times.
+[*]Enter manual prices as whole credits without commas. Default prices range from 100,000 to 600,000 CR.
+[/list]
+
+Manual unlocks are saved in [b]manuals.ini[/b] beside the settings file.
+
+[size=5][b]Compatibility[/b][/size]
+
+Tested alongside NoTimeGating. For another timing mod to control craft times, set [b]Instant = false[/b].
+
+[size=5][b]Screenshots[/b][/size]
+
+[i]Workshop Disassembly shows Frequency Tap recovery and multi-output salvage.[/i]
+
+[i]Ammo salvage in the dedicated Munitions category.[/i]
+
+[i]Thermite and other supplies in the existing Workshop Refinery.[/i]
+
+[i]Alcohol recipes and both cigarette upgrades.[/i]
+
+[size=5][b]Recipe reference[/b][/size]
+
+† Skipped if the item already has a stock recipe.
+
+[size=4][b]Munitions → Disassembly[/b][/size]
+
+[table]
+[tr][td][b]Inputs[/b][/td][td][b]Outputs[/b][/td][td][b]Manual[/b][/td][/tr]
+[tr][td]60 12-Gauge Buckshot[/td][td]2 Ball Bearings + 1 Fertilizer[/td][td]Munitions Manual A[/td][/tr]
+[tr][td]180 .308[/td][td]2 Nails + 1 Gunpowder[/td][td]Munitions Manual A[/td][/tr]
+[tr][td]120 .357 Magnum[/td][td]2 Nails + 1 Gunpowder[/td][td]Munitions Manual A[/td][/tr]
+[tr][td]180 .45 ACP[/td][td]2 Metal Fragments + 1 Gunpowder[/td][td]Munitions Manual A[/td][/tr]
+[tr][td]180 5.45x39mm[/td][td]2 Metal Fragments + 1 Gunpowder[/td][td]Munitions Manual A[/td][/tr]
+[tr][td]180 5.56x45mm[/td][td]2 Metal Fragments + 1 Gunpowder[/td][td]Munitions Manual A[/td][/tr]
+[tr][td]180 5.7x28mm[/td][td]2 Metal Fragments + 1 Gunpowder[/td][td]Munitions Manual A[/td][/tr]
+[tr][td]180 7.62x39mm[/td][td]2 Nails + 2 Gunpowder[/td][td]Munitions Manual A[/td][/tr]
+[tr][td]240 9x19mm[/td][td]2 Metal Fragments + 1 Fertilizer[/td][td]Munitions Manual A[/td][/tr]
+[tr][td]16 .50 PST[/td][td]8 .50 BMG + 4 Thermite + 1 Diodegradable Multi-tool[/td][td]Munitions Manual B[/td][/tr]
+[tr][td]60 12.7x55mm Subsonic[/td][td]1 Rare Metals + 2 Gunpowder[/td][td]Munitions Manual B[/td][/tr]
+[tr][td]20 20x105mm Anti-Tank[/td][td]2 Rare Metals + 1 Explosives[/td][td]Munitions Manual B[/td][/tr]
+[tr][td]60 .50 BMG[/td][td]2 Rare Metals + 2 Gunpowder[/td][td]Munitions Manual B[/td][/tr]
+[tr][td]60 7.62x54mmR[/td][td]1 Rare Metals + 2 Gunpowder[/td][td]Munitions Manual B[/td][/tr]
+[tr][td]60 5.45x39mm Cryo[/td][td]30 5.45x39mm + 3 Dogboro Cigarettes[/td][td]Munitions Manual B[/td][/tr]
+[tr][td]60 5.45x39mm Cryo[/td][td]30 5.45x39mm + 1 Whiskey[/td][td]Munitions Manual B[/td][/tr]
+[/table]
+
+[size=4][b]Workshop → Refinery[/b][/size]
+
+[table]
+[tr][td][b]Inputs[/b][/td][td][b]Outputs[/b][/td][td][b]Manual[/b][/td][/tr]
+[tr][td]3 Matches + 2 Thermal Matches + 2 Gunpowder[/td][td]1 Thermite[/td][td]Munitions Manual B[/td][/tr]
+[tr][td]2 Explosives + 1 Printed Circuit Board + 1 Battery[/td][td]1 Explosive Charge[/td][td]Munitions Manual B[/td][/tr]
+[tr][td]1 Hose + 1 Duct Tape + 1 Industrial Sealant[/td][td]1 Ribbed Tube[/td][td]Workshop Manual A[/td][/tr]
+[tr][td]2 Metal Slats + 1 Nails[/td][td]1 Sheet Metal[/td][td]Workshop Manual A[/td][/tr]
+[tr][td]3 Carbon Fiber + 1 Printing Resin[/td][td]1 Carbon Fiber Tube[/td][td]Workshop Manual C[/td][/tr]
+[tr][td]1 Industrial Chemicals + 1 Pressure Gauge + 1 Construction Glue + 1 Industrial Sealant[/td][td]1 Construction Foam[/td][td]Workshop Manual C †[/td][/tr]
+[tr][td]2 Drywall + 2 Metal Fragments + 1 Urea + 1 Industrial Chemicals[/td][td]1 Concrete Powder[/td][td]Workshop Manual C †[/td][/tr]
+[/table]
+
+[size=4][b]Workshop → Tools & Kits[/b][/size]
+
+[table]
+[tr][td][b]Inputs[/b][/td][td][b]Outputs[/b][/td][td][b]Manual[/b][/td][/tr]
+[tr][td]1 Hammer + 1 Screwdriver + 1 Basic Pliers[/td][td]1 Scavenger's Tool Kit[/td][td]Workshop Manual A[/td][/tr]
+[tr][td]1 Scavenger's Tool Kit + 1 Hand Drill + 1 Pipe Wrench[/td][td]1 Old Tool Set[/td][td]Workshop Manual A[/td][/tr]
+[tr][td]2 Metal Fragments + 1 Cordura + 1 Fleece + 1 Leather Hole Punch[/td][td]1 Sewing Kit[/td][td]Workshop Manual A †[/td][/tr]
+[tr][td]1 Old Tool Set + 1 Advanced Pliers + 1 Ratchet[/td][td]1 Intermediate Tool Set[/td][td]Workshop Manual B[/td][/tr]
+[tr][td]1 Hand Drill + 1 Machine Parts + 1 Wires + 1 Rechargeable Battery[/td][td]1 Power Drill[/td][td]Workshop Manual B †[/td][/tr]
+[tr][td]1 Fire Starter Kit + 1 Power Supply Unit + 2 Glue + 1 Super Glue[/td][td]1 Glue Gun[/td][td]Workshop Manual B †[/td][/tr]
+[tr][td]1 Old Tool Set + 1 Military Tape + 1 Weapon Parts + 1 Military Grade Lubricant[/td][td]1 Field Repair Kit[/td][td]Workshop Manual B †[/td][/tr]
+[tr][td]1 Basic Pliers + 2 Metal Pipe + 2 Bolts + 1 Advanced Pliers[/td][td]1 Bolt Cutters[/td][td]Workshop Manual B †[/td][/tr]
+[tr][td]1 Hammer + 1 Metal Pipe + 2 Metal Fragments + 1 Construction Glue[/td][td]1 Sledgehammer[/td][td]Workshop Manual B †[/td][/tr]
+[tr][td]1 Pipe Wrench + 1 Ratchet + 1 Weapon Parts + 1 Grindstone[/td][td]1 Armorer's Wrench[/td][td]Workshop Manual B †[/td][/tr]
+[tr][td]1 Intermediate Tool Set + 1 EDC Multi-tool + 1 Measuring Tape[/td][td]1 Precision Tool Set[/td][td]Workshop Manual C[/td][/tr]
+[tr][td]1 Power Drill + 1 Machine Parts + 1 Electric Motor[/td][td]1 Rotary Hammer[/td][td]Workshop Manual C †[/td][/tr]
+[tr][td]1 Bolt Cutters + 1 Grindstone + 1 Carbon Fiber + 1 Construction Foam[/td][td]1 Anti-Vertex Bolt Cutters[/td][td]Workshop Manual D †[/td][/tr]
+[tr][td]1 Field Repair Kit + 1 Armorer's Wrench + 2 Advanced Joint + 1 Construction Foam[/td][td]1 Exo Repair Kit[/td][td]Workshop Manual D †[/td][/tr]
+[/table]
+
+[size=4][b]Workshop → Fabrication[/b][/size]
+
+[table]
+[tr][td][b]Inputs[/b][/td][td][b]Outputs[/b][/td][td][b]Manual[/b][/td][/tr]
+[tr][td]1 Machine Parts + 2 Wires + 2 Ball Bearings + 1 Industrial Sealant[/td][td]1 Electric Motor[/td][td]Workshop Manual B †[/td][/tr]
+[tr][td]1 Electric Motor + 2 Machine Parts + 2 Spark Plug + 1 Power Supply Unit[/td][td]1 Portable Generator[/td][td]Workshop Manual C[/td][/tr]
+[tr][td]2 Ball Bearings + 1 Electric Motor + 1 Machine Parts[/td][td]1 Advanced Joint[/td][td]Workshop Manual C[/td][/tr]
+[tr][td]2 Sheet Metal + 1 Electric Motor + 1 Relay + 1 Wires[/td][td]1 Turret Component[/td][td]Workshop Manual C[/td][/tr]
+[tr][td]2 Ball Bearings + 2 Bolts + 1 Metal Pipe + 1 Military Grade Lubricant[/td][td]1 Heavy Joint Assembly[/td][td]Workshop Manual C †[/td][/tr]
+[tr][td]1 GP-5 Gas Mask + 1 Sheet Metal + 1 Fleece + 1 Carbon Fiber[/td][td]1 Ventilation Filter[/td][td]Workshop Manual C †[/td][/tr]
+[tr][td]1 Metal Pipe + 2 Sheet Metal + 1 Electric Motor + 1 Concrete Powder[/td][td]1 Concrete Mixer[/td][td]Workshop Manual C †[/td][/tr]
+[tr][td]1 Ventilation Filter + 1 Pressure Gauge + 1 Telemetry Unit + 1 Construction Foam[/td][td]1 Ventilation Regulator[/td][td]Workshop Manual D †[/td][/tr]
+[tr][td]2 Thermite + 2 Metal Fragments + 1 Pressure Gauge + 1 Construction Foam[/td][td]1 Crucible[/td][td]Workshop Manual D †[/td][/tr]
+[tr][td]2 Liquid Cooling Unit + 1 Ribbed Tube + 1 Carbon Fiber Tube + 1 Liquid Coolant[/td][td]1 Railgun Cooling Component[/td][td]Workshop Manual D †[/td][/tr]
+[/table]
+
+[size=4][b]Workshop → Power & Lighting[/b][/size]
+
+[table]
+[tr][td][b]Inputs[/b][/td][td][b]Outputs[/b][/td][td][b]Manual[/b][/td][/tr]
+[tr][td]2 Battery + 1 Wires[/td][td]1 Rechargeable Battery[/td][td]Electronics Manual A[/td][/tr]
+[tr][td]1 Clear Tube + 1 Wires[/td][td]1 Light Bulb[/td][td]Electronics Manual A[/td][/tr]
+[tr][td]2 Light Bulb[/td][td]1 Light Bulbs[/td][td]Electronics Manual A[/td][/tr]
+[tr][td]1 Light Bulb + 1 Printed Circuit Board[/td][td]1 ES Lamp[/td][td]Electronics Manual A[/td][/tr]
+[tr][td]1 Power Supply Unit + 1 Jumper Cable Kit + 1 Relay + 1 LCD[/td][td]1 Battery Charger[/td][td]Electronics Manual A †[/td][/tr]
+[tr][td]4 Battery + 1 Jumper Cable Kit + 1 Industrial Chemicals[/td][td]1 Car Battery[/td][td]Electronics Manual A †[/td][/tr]
+[tr][td]1 ES Lamp + 1 Camera Lens[/td][td]1 UV Light Bulb[/td][td]Electronics Manual B[/td][/tr]
+[tr][td]2 ES Lamp + 2 Sheet Metal + 1 Relay[/td][td]1 Bulkhead Lights[/td][td]Electronics Manual B[/td][/tr]
+[tr][td]1 Car Battery + 1 Military Cables + 1 Military Tape + 1 Industrial Sealant[/td][td]1 Military Battery[/td][td]Electronics Manual C †[/td][/tr]
+[tr][td]1 Power Cell + 1 Military Cables + 1 Military Circuitry[/td][td]1 Military Power Cell[/td][td]Electronics Manual C †[/td][/tr]
+[tr][td]2 UV Light Bulb + 1 Sheet Metal + 1 Power Cell + 1 Relay[/td][td]1 Industrial Black Light[/td][td]Electronics Manual C †[/td][/tr]
+[tr][td]2 Car Battery + 1 LCD + 1 Power Cell + 1 Industrial Sealant[/td][td]1 Solar Battery[/td][td]Electronics Manual C †[/td][/tr]
+[/table]
+
+[size=4][b]Workshop → Electronics & Comms[/b][/size]
+
+[table]
+[tr][td][b]Inputs[/b][/td][td][b]Outputs[/b][/td][td][b]Manual[/b][/td][/tr]
+[tr][td]1 Diodegradable Multi-tool + 1 Battery + 1 Printed Circuit Board[/td][td]1 EDC Multi-tool[/td][td]Electronics Manual B[/td][/tr]
+[tr][td]2 Europa MilTech Radio + 1 Printed Circuit Board[/td][td]1 Multi-frequency Broadcaster[/td][td]Electronics Manual B[/td][/tr]
+[tr][td]1 Computer Fan + 1 Ribbed Tube + 1 Pressure Gauge + 1 Liquid Coolant[/td][td]1 Liquid Cooling Unit[/td][td]Electronics Manual B †[/td][/tr]
+[tr][td]2 Printed Circuit Board + 1 Wires + 1 CPU + 1 Processor Board[/td][td]1 Motherboard[/td][td]Electronics Manual B †[/td][/tr]
+[tr][td]2 Hard Drive + 1 Mini MD Drive + 1 Processor Board[/td][td]1 High Capacity Hard Drive[/td][td]Electronics Manual B †[/td][/tr]
+[tr][td]1 Analog Headset + 1 Military Cables + 1 Modem + 1 Power Cell[/td][td]1 High-Frequency Radio[/td][td]Electronics Manual B †[/td][/tr]
+[tr][td]2 High Capacity Hard Drive + 1 Military Circuitry[/td][td]1 Military Hard Drive[/td][td]Electronics Manual C[/td][/tr]
+[tr][td]1 High Capacity Hard Drive + 2 Printed Circuit Board + 1 Rechargeable Battery + 1 Industrial Sealant[/td][td]1 Hard Shell Laptop[/td][td]Electronics Manual C[/td][/tr]
+[tr][td]1 Hard Drive + 1 Military Tape + 1 LCD + 1 Processor Board[/td][td]1 Military PDA[/td][td]Electronics Manual C †[/td][/tr]
+[tr][td]1 High Capacity Hard Drive + 1 Processor Board + 1 Organoid Plug + 1 Organoid Outlet[/td][td]1 Organoid Memory Board[/td][td]Electronics Manual C †[/td][/tr]
+[tr][td]1 High-Frequency Radio + 1 Scavenger's Go-Bag + 1 Military Battery[/td][td]1 Manpack Radio[/td][td]Electronics Manual C †[/td][/tr]
+[tr][td]1 Camera + 1 Camera Lens + 1 Military PDA + 1 OLED[/td][td]1 Laser Rangefinder[/td][td]Electronics Manual C †[/td][/tr]
+[tr][td]1 Field Repair Kit + 1 Computer Fan + 1 Electric Motor + 1 Military Power Cell[/td][td]1 Repair Dronelet[/td][td]Electronics Manual C †[/td][/tr]
+[tr][td]2 High Capacity Hard Drive + 1 Liquid Cooling Unit + 1 Organoid Memory Board[/td][td]1 Quantum Hard Drive[/td][td]Electronics Manual D †[/td][/tr]
+[tr][td]1 Organoid Networking Board + 1 Liquid Cooling Unit + 1 Organoid Plug + 1 Organoid Outlet[/td][td]1 Wetware Processor[/td][td]Electronics Manual D †[/td][/tr]
+[tr][td]1 Military PDA + 1 OLED + 1 Military Circuitry + 1 Quantum Hard Drive[/td][td]1 Encrypted Data Pad[/td][td]Electronics Manual D †[/td][/tr]
+[tr][td]1 Encrypted Data Pad + 1 Frequency Tap + 1 Neuro Uplink Board[/td][td]1 Rootkit Device[/td][td]Electronics Manual D †[/td][/tr]
+[/table]
+
+[size=4][b]Workshop → Disassembly[/b][/size]
+
+[table]
+[tr][td][b]Inputs[/b][/td][td][b]Outputs[/b][/td][td][b]Manual[/b][/td][/tr]
+[tr][td]3 Signal Scrambler Grenade[/td][td]1 Frequency Tap[/td][td]Electronics Manual B[/td][/tr]
+[tr][td]1 Industrial Black Light[/td][td]1 UV Light Bulb + 2 Wires + 1 Relay[/td][td]Electronics Manual B[/td][/tr]
+[tr][td]1 Heavy-Duty Trauma Kit[/td][td]2 Bandages + 1 Medical Alcohol + 1 Tourniquet + 1 Assorted Medicine[/td][td]Workshop Manual A[/td][/tr]
+[tr][td]1 Power Drill + 1 Screwdriver[/td][td]1 Electric Motor[/td][td]Workshop Manual B[/td][/tr]
+[tr][td]1 Sentient Drill + 1 EDC Multi-tool[/td][td]1 Wetware Processor + 1 Machine Parts[/td][td]Workshop Manual D[/td][/tr]
+[/table]
+
+Salvage consumes the listed tools.
+
+[size=4][b]Workshop → Rig Boxes[/b][/size]
+
+Choose the size and position that fit your rig. Keep the matching spare low-quality box in the stash before upgrading.
+
+[table]
+[tr][td][b]Inputs[/b][/td][td][b]Outputs[/b][/td][td][b]Manual[/b][/td][/tr]
+[tr][td]1 Metal Slats + 1 Screws[/td][td]1 Small low-quality box[/td][td]Rig Storage Manual A[/td][/tr]
+[tr][td]2 Metal Slats + 1 Screws[/td][td]1 Medium low-quality box[/td][td]Rig Storage Manual A[/td][/tr]
+[tr][td]3 Metal Slats + 2 Screws[/td][td]1 Large low-quality box[/td][td]Rig Storage Manual A[/td][/tr]
+[tr][td]1 Matching small low-quality box + 1 Sheet Metal + 1 Duct Tape[/td][td]1 Small high-quality box[/td][td]Rig Storage Manual B[/td][/tr]
+[tr][td]1 Matching medium low-quality box + 2 Sheet Metal + 1 Duct Tape[/td][td]1 Medium high-quality box[/td][td]Rig Storage Manual B[/td][/tr]
+[tr][td]1 Matching large low-quality box + 2 Sheet Metal + 1 Sewing Kit + 1 Carbon Fiber Tube[/td][td]1 Large high-quality box[/td][td]Rig Storage Manual C[/td][/tr]
+[/table]
+
+[size=4][b]Workshop → U.I.D.[/b][/size]
+
+[table]
+[tr][td][b]Inputs[/b][/td][td][b]Outputs[/b][/td][td][b]Manual[/b][/td][/tr]
+[tr][td]1 Eurasian IFF Chip LVL3[/td][td]2 Eurasian IFF Chip LVL2[/td][td]IFF Manual[/td][/tr]
+[tr][td]1 Eurasian IFF Chip LVL2[/td][td]2 Eurasian IFF Chip LVL1[/td][td]IFF Manual[/td][/tr]
+[tr][td]1 Europan IFF Chip LVL3[/td][td]2 Europan IFF Chip LVL2[/td][td]IFF Manual[/td][/tr]
+[tr][td]1 Europan IFF Chip LVL2[/td][td]2 Europan IFF Chip LVL1[/td][td]IFF Manual[/td][/tr]
+[tr][td]1 Euruskan IFF Chip LVL3[/td][td]2 Euruskan IFF Chip LVL2[/td][td]IFF Manual[/td][/tr]
+[tr][td]1 Euruskan IFF Chip LVL2[/td][td]2 Euruskan IFF Chip LVL1[/td][td]IFF Manual[/td][/tr]
+[tr][td]1 Printed Circuit Board + 1 Frequency Tap + 1 Modem[/td][td]1 Eurasian IFF Chip LVL1[/td][td]IFF Manual †[/td][/tr]
+[tr][td]1 Printed Circuit Board + 1 Frequency Tap + 1 Modem[/td][td]1 Europan IFF Chip LVL1[/td][td]IFF Manual †[/td][/tr]
+[tr][td]1 Printed Circuit Board + 1 Frequency Tap + 1 Modem[/td][td]1 Euruskan IFF Chip LVL1[/td][td]IFF Manual †[/td][/tr]
+[/table]
+
+[size=4][b]Workshop → Provisions[/b][/size]
+
+[table]
+[tr][td][b]Inputs[/b][/td][td][b]Outputs[/b][/td][td][b]Manual[/b][/td][/tr]
+[tr][td]2 Gin + 2 Vodka[/td][td]1 Whiskey[/td][td]Provisions Manual[/td][/tr]
+[tr][td]3 Wine[/td][td]1 Brandy[/td][td]Provisions Manual[/td][/tr]
+[tr][td]2 Whiskey[/td][td]1 Scotch[/td][td]Provisions Manual[/td][/tr]
+[tr][td]1 Brandy + 1 Whiskey + 2 Wine[/td][td]1 Prized Alcohol[/td][td]Provisions Manual[/td][/tr]
+[tr][td]2 Dogboro Cigarettes + 1 Deep Fried Coffee[/td][td]1 Hinoko Cigarettes[/td][td]Provisions Manual[/td][/tr]
+[tr][td]1 Hinoko Cigarettes + 3 Dogboro Cigarettes[/td][td]1 Nucky Gold Cigarettes[/td][td]Provisions Manual[/td][/tr]
+[/table]

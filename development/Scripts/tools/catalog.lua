@@ -1,7 +1,9 @@
 local M = {}
 local SOURCES = {
     { table_name = "ItemDetailsData", prefix = "Inventory.Item.", name_field = "ItemName" },
+    { table_name = "QuestItemDetailsData", prefix = "Inventory.Item.", name_field = "ItemName" },
     { table_name = "DanglyDetailsData", prefix = "Inventory.Dangly.", name_field = "DanglyName" },
+    { table_name = "InventoryContainerData", prefix = "Inventory.Container.", name_field = "ContainerName" },
 }
 
 local function inventory_table(name)
@@ -42,12 +44,15 @@ function M.export(recipes, definitions, path)
         else
             data:ForEachRow(function(row_name, row)
                 row_name = tostring(row_name)
-                local ok, name = pcall(function() return row[source.name_field]:ToString() end)
-                entries[source.prefix .. row_name] = {
-                    row = row_name,
-                    name = ok and name or "",
-                    source = source.table_name,
-                }
+                local tag = source.prefix .. row_name
+                if not entries[tag] then
+                    local ok, name = pcall(function() return row[source.name_field]:ToString() end)
+                    entries[tag] = {
+                        row = row_name,
+                        name = ok and name or "",
+                        source = source.table_name,
+                    }
+                end
             end)
         end
     end

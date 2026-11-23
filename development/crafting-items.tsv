@@ -1,4 +1,113 @@
 tag	row	display_name	source_table	stock_ingredient	stock_output
+Inventory.Container.BP_BotLarge2_C	BP_BotLarge2_C	Bottom Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotLarge_3_C	BP_BotLarge_3_C	Bottom Large High Quality	InventoryContainerData		
+Inventory.Container.BP_BotLarge_4	BP_BotLarge_4	Bottom Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotLarge_5	BP_BotLarge_5	Bottom Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotLeftLarge_2_C	BP_BotLeftLarge_2_C	BottomLeft Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotLeftLarge_3_C	BP_BotLeftLarge_3_C	Bottom Left Large High Quality	InventoryContainerData		
+Inventory.Container.BP_BotLeftLarge_4	BP_BotLeftLarge_4	BottomLeft Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotLeftLarge_5	BP_BotLeftLarge_5	BottomLeft Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotLeftMedium_2_C	BP_BotLeftMedium_2_C	Bottom Left Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotLeftMedium_3_C	BP_BotLeftMedium_3_C	Bottom Left Medium High Quality	InventoryContainerData		
+Inventory.Container.BP_BotLeftMedium_4	BP_BotLeftMedium_4	Bottom Left Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotLeftMedium_5	BP_BotLeftMedium_5	Bottom Left Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotLeftSmall_2_C	BP_BotLeftSmall_2_C	Bottom Left Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotLeftSmall_3_C	BP_BotLeftSmall_3_C	Bottom Left Small High Quality	InventoryContainerData		
+Inventory.Container.BP_BotLeftSmall_4	BP_BotLeftSmall_4	Bottom Left Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotLeftSmall_5	BP_BotLeftSmall_5	Bottom Left Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotMedium2_C	BP_BotMedium2_C	Bottom Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotMedium_3_C	BP_BotMedium_3_C	Bottom Medium High Quality	InventoryContainerData		
+Inventory.Container.BP_BotMedium_4	BP_BotMedium_4	Bottom Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotMedium_5	BP_BotMedium_5	Bottom Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotRightLarge_2_C	BP_BotRightLarge_2_C	BottomRight Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotRightLarge_3_C	BP_BotRightLarge_3_C	Bottom Right Large High Quality	InventoryContainerData		
+Inventory.Container.BP_BotRightLarge_4	BP_BotRightLarge_4	BottomRight Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotRightLarge_5	BP_BotRightLarge_5	BottomRight Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotRightMedium_2_C	BP_BotRightMedium_2_C	Bottom Right Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotRightMedium_3_C	BP_BotRightMedium_3_C	Bottom Right Medium High Quality	InventoryContainerData		
+Inventory.Container.BP_BotRightMedium_4	BP_BotRightMedium_4	Bottom Right Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotRightMedium_5	BP_BotRightMedium_5	Bottom Right Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotRightSmall_2_C	BP_BotRightSmall_2_C	Bottom Right Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotRightSmall_3_C	BP_BotRightSmall_3_C	Bottom Right Small High Quality	InventoryContainerData		
+Inventory.Container.BP_BotRightSmall_4	BP_BotRightSmall_4	Bottom Right Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotRightSmall_5	BP_BotRightSmall_5	Bottom Right Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotSmall2_C	BP_BotSmall2_C	Bottom Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotSmall_3_C	BP_BotSmall_3_C	Bottom Small High Quality	InventoryContainerData		
+Inventory.Container.BP_BotSmall_4	BP_BotSmall_4	Bottom Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_BotSmall_5	BP_BotSmall_5	Bottom Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_CentreLarge_2_C	BP_CentreLarge_2_C	Center Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_CentreLarge_3_C	BP_CentreLarge_3_C	Center Large High Quality	InventoryContainerData		
+Inventory.Container.BP_CentreLarge_4	BP_CentreLarge_4	Center Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_CentreLarge_5	BP_CentreLarge_5	Center Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_CentreMedium_2_C	BP_CentreMedium_2_C	Center Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_CentreMedium_3_C	BP_CentreMedium_3_C	Center Medium High Quality	InventoryContainerData		
+Inventory.Container.BP_CentreMedium_4	BP_CentreMedium_4	Center Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_CentreMedium_5	BP_CentreMedium_5	Center Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_CentreSmall_2_C	BP_CentreSmall_2_C	Center Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_CentreSmall_3_C	BP_CentreSmall_3_C	Center Small High Quality	InventoryContainerData		
+Inventory.Container.BP_CentreSmall_4	BP_CentreSmall_4	Center Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_CentreSmall_5	BP_CentreSmall_5	Center Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_DropBox	BP_DropBox	Drop Box	InventoryContainerData		
+Inventory.Container.BP_LeftLarge_2_C	BP_LeftLarge_2_C	Left Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_LeftLarge_3_C	BP_LeftLarge_3_C	Left Large High Quality	InventoryContainerData		
+Inventory.Container.BP_LeftLarge_4	BP_LeftLarge_4	Left Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_LeftLarge_5	BP_LeftLarge_5	Left Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_LeftMedium_2_C	BP_LeftMedium_2_C	Left Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_LeftMedium_3_C	BP_LeftMedium_3_C	Left Medium High Quality	InventoryContainerData		
+Inventory.Container.BP_LeftMedium_4	BP_LeftMedium_4	Left Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_LeftMedium_5	BP_LeftMedium_5	Left Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_LeftSmall_2_C	BP_LeftSmall_2_C	Left Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_LeftSmall_3_C	BP_LeftSmall_3_C	Left Small High Quality	InventoryContainerData		
+Inventory.Container.BP_LeftSmall_4	BP_LeftSmall_4	Left Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_LeftSmall_5	BP_LeftSmall_5	Left Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_RightLarge_2_C	BP_RightLarge_2_C	Right Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_RightLarge_3_C	BP_RightLarge_3_C	Right Large High Quality	InventoryContainerData		
+Inventory.Container.BP_RightLarge_4	BP_RightLarge_4	Right Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_RightLarge_5	BP_RightLarge_5	Right Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_RightMedium_2_C	BP_RightMedium_2_C	Right Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_RightMedium_3_C	BP_RightMedium_3_C	Right Medium High Quality	InventoryContainerData		
+Inventory.Container.BP_RightMedium_4	BP_RightMedium_4	Right Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_RightMedium_5	BP_RightMedium_5	Right Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_RightSmall_2_C	BP_RightSmall_2_C	Right Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_RightSmall_3_C	BP_RightSmall_3_C	Right Small High Quality	InventoryContainerData		
+Inventory.Container.BP_RightSmall_4	BP_RightSmall_4	Right Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_RightSmall_5	BP_RightSmall_5	Right Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopLarge_2_C	BP_TopLarge_2_C	Top Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopLarge_3_C	BP_TopLarge_3_C	Top Large High Quality	InventoryContainerData		
+Inventory.Container.BP_TopLarge_4	BP_TopLarge_4	Top Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopLarge_5	BP_TopLarge_5	Top Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopLeftLarge_2_C	BP_TopLeftLarge_2_C	TopLeft Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopLeftLarge_3_C	BP_TopLeftLarge_3_C	Top Left Large High Quality	InventoryContainerData		
+Inventory.Container.BP_TopLeftLarge_4	BP_TopLeftLarge_4	TopLeft Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopLeftLarge_5	BP_TopLeftLarge_5	TopLeft Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopLeftMedium_2_C	BP_TopLeftMedium_2_C	Top Left Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopLeftMedium_3_C	BP_TopLeftMedium_3_C	Top Left Medium High Quality	InventoryContainerData		
+Inventory.Container.BP_TopLeftMedium_4	BP_TopLeftMedium_4	TopLeft Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopLeftMedium_5	BP_TopLeftMedium_5	Top Left Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopLeftSmall_2_C	BP_TopLeftSmall_2_C	Top Left Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopLeftSmall_3_C	BP_TopLeftSmall_3_C	Top Left Small High Quality	InventoryContainerData		
+Inventory.Container.BP_TopLeftSmall_4	BP_TopLeftSmall_4	Top Left Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopLeftSmall_5	BP_TopLeftSmall_5	Top Left Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopMedium_2_C	BP_TopMedium_2_C	Top Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopMedium_3_C	BP_TopMedium_3_C	Top Medium High Quality	InventoryContainerData		
+Inventory.Container.BP_TopMedium_4	BP_TopMedium_4	Top Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopMedium_5	BP_TopMedium_5	Top Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopRightLarge_2_C	BP_TopRightLarge_2_C	TopRight Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopRightLarge_3_C	BP_TopRightLarge_3_C	Top Right Large High Quality	InventoryContainerData		
+Inventory.Container.BP_TopRightLarge_4	BP_TopRightLarge_4	TopRight Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopRightLarge_5	BP_TopRightLarge_5	TopRight Large Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopRightMedium_2_C	BP_TopRightMedium_2_C	Top Right Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopRightMedium_3_C	BP_TopRightMedium_3_C	Top Right Medium High Quality	InventoryContainerData		
+Inventory.Container.BP_TopRightMedium_4	BP_TopRightMedium_4	Top Right Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopRightMedium_5	BP_TopRightMedium_5	Top Right Medium Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopRightSmall_2_C	BP_TopRightSmall_2_C	Top Right Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopRightSmall_3_C	BP_TopRightSmall_3_C	Top Right Small High Quality	InventoryContainerData		
+Inventory.Container.BP_TopRightSmall_4	BP_TopRightSmall_4	Top Right Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopRightSmall_5	BP_TopRightSmall_5	Top Right Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopSmall_2_C	BP_TopSmall_2_C	Top Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopSmall_3_C	BP_TopSmall_3_C	Top Small High Quality	InventoryContainerData		
+Inventory.Container.BP_TopSmall_4	BP_TopSmall_4	Top Small Low Quality	InventoryContainerData		
+Inventory.Container.BP_TopSmall_5	BP_TopSmall_5	Top Small Low Quality	InventoryContainerData		
 Inventory.Dangly.BP_ActivityItem_Jerrycan	BP_ActivityItem_Jerrycan	Jerrycan	DanglyDetailsData		
 Inventory.Dangly.BP_ActivityItem_WaterThiefMask	BP_ActivityItem_WaterThiefMask	Water Thief Mask	DanglyDetailsData		
 Inventory.Dangly.BP_BaseDangleSingleConstraint_C	BP_BaseDangleSingleConstraint_C	BP_BaseDangleSingleConstraint_C	DanglyDetailsData		
@@ -385,6 +494,7 @@ Inventory.Item.Quest_TissueSample	Quest_TissueSample	Tissue Sample	ItemDetailsDa
 Inventory.Item.Quest_Water_Map	Quest_Water_Map	Water Map	ItemDetailsData		
 Inventory.Item.Quest_WeaponSchematics	Quest_WeaponSchematics	Weapon Schematics	ItemDetailsData		
 Inventory.Item.Quest_WetwareSystem	Quest_WetwareSystem	Wetware System	ItemDetailsData		
+Inventory.Item.Radio	Radio	Europa MilTech Radio	QuestItemDetailsData		
 Inventory.Item.RareComputerBits	RareComputerBits	Military Circuitry	ItemDetailsData	yes	
 Inventory.Item.RareLoot_100_SparkPlug	RareLoot_100_SparkPlug	Spark Plug	ItemDetailsData		
 Inventory.Item.RareLoot_101_Thermite	RareLoot_101_Thermite	Thermite	ItemDetailsData	yes	

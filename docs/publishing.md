@@ -1,7 +1,15 @@
 # Publishing checklist
 
-- Archive the top-level `ue4ss` folder for the Nexus main file.
-- Use the [summary](nexus-summary.txt) and [long description](nexus-description.md).
-- Upload the four [screenshots](../assets/screenshots/) in filename order. Add the uploaded images above their captions in the Nexus editor.
-- List RE-UE4SS 4.0.0 Experimental as a requirement and include the tested commit `b2d936b9`.
-- Use the developer overlay from the [developer guide](../DEVELOPMENT.md) if offering a separate catalog-enabled download.
+1. ZIP the repository's `ue4ss` folder. It should unpack to
+   `ue4ss/Mods/MoreCraftingRecipes/` with the Lua scripts, settings INI, and
+   `enabled.txt`. Keep generated progress files and the developer overlay out
+   of the main archive.
+2. Copy the [summary](nexus-summary.txt) into the mod summary field. Switch
+   the description editor to BBCode view and paste the
+   [description](nexus-description.bbcode.txt). Check the preview.
+3. Upload the [screenshots](../assets/screenshots/) in filename order and
+   insert them above their captions in the description editor.
+4. List RE-UE4SS 4.0.0 Experimental and tested commit `b2d936b9` in the
+   requirements.
+5. For a separate catalog build, use the overlay in the
+   [developer guide](../DEVELOPMENT.md).

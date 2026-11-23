@@ -1,1 +1,1 @@
-Adds more crafting and disassembly recipes to Innards workshop that give spare loot a use and cut down on farming.
+Adds crafting and disassembly recipes that put spare loot to use and reduce farming in The Forever Winter.

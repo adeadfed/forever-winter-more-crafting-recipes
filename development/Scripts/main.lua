@@ -1,14 +1,13 @@
-local config = require("recipes")
-local installer = require("mcr_installer")
-local catalog = require("mcr_catalog")
-local runtime = require("mcr_runtime")
+local installer = require("core/installer")
+local catalog = require("tools/catalog")
+local bootstrap = require("core/bootstrap")
 
 local source = debug.getinfo(1, "S").source:gsub("^@", "")
 local mod_directory = assert(source:match("^(.*[\\/])Scripts[\\/][^\\/]+$"), "mod directory unavailable")
 local catalog_path = mod_directory .. "crafting-items.tsv"
 local complete = false
 
-runtime.start(config, function(definitions, log)
+bootstrap.start(mod_directory, function(definitions, log)
     if complete then return end
     local recipes = installer.find_table("recipes")
     if not recipes then return end
